@@ -1,0 +1,36 @@
+a {
+  color: #0D0D0D;
+  text-decoration: none;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div a {
+  font-size: 16px;
+}
+nav div a:hover {
+  color: #10587B;
+  text-decoration: underline;
+}
+nav div a:active {
+  color: #10587B;
+  text-decoration: underline;
+}
+
+nav div a:not(:last-child) {
+  margin-right: 100px;
+}
+
+nav div a:last-child {
+  background: #10587B;
+  color: white;
+  padding: 5px 15px;
+}

@@ -8,7 +8,12 @@
 </head>
 <body>
     <div class="container">
-        
+        <?php include('./components/nav.html'); ?>
+
+        <div class="cta">
+            <h1>Voet Gevoel</h1>
+            <h2>H</h2>
+        </div>
     </div>
 </body>
 </html>

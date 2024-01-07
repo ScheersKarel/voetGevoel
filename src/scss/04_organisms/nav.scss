@@ -1,0 +1,33 @@
+nav{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;   
+    justify-content: space-between; 
+    align-items: center;
+}
+nav div a{
+    font-size: 16px;
+
+    &:hover{ 
+        color: $blauw;
+        text-decoration: underline;
+    }
+    
+    &:active{
+        color: $blauw;
+        text-decoration: underline;
+    }
+
+}
+
+nav div a:not(:last-child){
+    margin-right: 100px;
+}
+
+nav div a:last-child{
+    background: $blauw;
+    color: white;
+    padding: 5px 15px;
+}
