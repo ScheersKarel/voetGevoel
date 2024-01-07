@@ -1,6 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Lato:wght@400;700&family=Noto+Sans:wght@500&family=Poppins:wght@300;400;500;600&display=swap");
 a {
   color: #0D0D0D;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: "nato sans";
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "nato sans";
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "noto sans";
+}
+
+p {
+  line-height: 150%;
+  font-size: 16px;
+  font-family: "poppins";
+}
+
+button {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
 }
 
 nav {
@@ -33,4 +64,30 @@ nav div a:last-child {
   background: #10587B;
   color: white;
   padding: 5px 15px;
+}
+
+.cta {
+  background-image: url("../images/Rectangle 4164.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.cta__content {
+  width: 35%;
+  margin-left: 15%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.cta__subtitle {
+  margin-left: 20%;
+  font-family: "edu sa beginner";
+  font-size: 28px;
+}
+.cta__button {
+  background-color: #10587B;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20px;
 }
