@@ -139,7 +139,9 @@
         </div>
     </div>
 
+    <?php include('./components/footer.html'); ?>
 </div>
 </body>
 </html>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script src="./resources/js/main.js"></script>

@@ -1,0 +1,81 @@
+.footer{
+   
+    margin-top: 100px;
+
+    &__line{
+        border: 1px solid $blue;
+        width: 80%;
+        margin: auto;
+    }
+
+    &__container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        gap: 20px;
+
+        &__item{
+            width: 85%;
+            &__button{
+                border: none;
+                background-color: $blue;
+                color: white;
+                padding: 5px 10px;
+            }
+
+            &__socials{
+                display: flex;
+                margin-top: 30px;
+                
+                &__button{
+                    background-color: $blue;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    padding: 6px 6px 0px 6px;
+                   
+                   
+                }
+              
+            }
+        }
+
+        &__img{
+            justify-self: end;
+            margin-top: 25px;
+        }
+    }
+    &__rights{
+        padding-left: 10%;
+        padding-right: 10%;
+        background-color: #E8EEEF;
+        display: flex;
+        justify-content: space-between;
+        font-size: 9px;
+        margin-top: 20px;
+    }
+}
+
+.footer__container__item__socials__button {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer__container__item__socials__button span {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    opacity: 0;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.footer__container__item__socials__button:hover .tooltip {
+    opacity: 1;
+}
+
