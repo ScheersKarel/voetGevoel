@@ -1,0 +1,15 @@
+.about{
+    &__content{
+        margin-top: 150px;
+        &__text{
+            width: 90%;
+        }
+        &__button{
+            border: none;
+            background-color: $orange;
+            color: white;
+            padding: 5px 10px;
+        }
+    }
+    
+}

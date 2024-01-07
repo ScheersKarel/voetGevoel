@@ -28,10 +28,55 @@ p {
   font-family: "poppins";
 }
 
+body {
+  font-family: "poppins";
+}
+
 button {
   font-family: "poppins";
   font-weight: 500;
   font-size: 14px;
+}
+
+.customers__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about__content {
+  margin-top: 150px;
+}
+.about__content__text {
+  width: 90%;
+}
+.about__content__button {
+  border: none;
+  background-color: #BF4D1B;
+  color: white;
+  padding: 5px 10px;
+}
+
+.about__img__bg {
+  margin-top: 20px;
+  position: absolute;
+  top: 200; /* Plaatst het element aan de bovenkant van het scherm */
+  right: 0;
+}
+.about__img__isabel {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 160px;
+}
+.about__img__strand {
+  position: absolute;
+  z-index: 10;
+  margin-top: 230px;
+}
+.about__img__hey {
+  position: absolute;
+  z-index: 10;
+  margin-top: 160px;
+  margin-left: 88px;
 }
 
 nav {
@@ -46,6 +91,7 @@ nav {
 
 nav div a {
   font-size: 16px;
+  font-weight: 500;
 }
 nav div a:hover {
   color: #10587B;
@@ -57,7 +103,7 @@ nav div a:active {
 }
 
 nav div a:not(:last-child) {
-  margin-right: 100px;
+  margin-right: 90px;
 }
 
 nav div a:last-child {
@@ -90,4 +136,169 @@ nav div a:last-child {
   color: white;
   padding: 10px 15px;
   margin-top: 20px;
+}
+
+.about {
+  width: 90%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.treatment__card {
+  width: calc(33.33% - 40px); /* 33.33% om drie kaarten naast elkaar te plaatsen, 40px voor de marge (20px aan beide zijden) */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px; /* Of een andere gewenste maximale breedte voor elke kaart */
+  margin-bottom: 20px;
+}
+.treatment__card__title {
+  text-align: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.treatment__card__line {
+  border: 1px solid #BF4D1B;
+  width: 25%;
+  margin: 10px 0;
+  margin-top: -20px;
+}
+.treatment__card__text {
+  text-align: center;
+}
+.treatment__card__button {
+  border: none;
+  background-color: #BF4D1B;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.slider_content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.slider_content__content {
+  margin-left: 30px;
+}
+.slider_content__content__date {
+  font-family: "lato";
+  font-size: 12px;
+}
+.slider_content__content__title {
+  font-family: "lato";
+  font-size: 24px;
+}
+.slider_content__content__text {
+  font-family: "lato";
+  width: 90%;
+  font-size: 12px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 110%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #10587B;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 40%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 40%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #10587B;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  display: flex;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.treatments {
+  width: 80%;
+  margin: auto;
+  margin-top: 350px;
+}
+.treatments__title {
+  text-align: center;
+}
+
+.treatment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
 }

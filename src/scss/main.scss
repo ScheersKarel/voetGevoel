@@ -8,7 +8,16 @@
 @import "01_fundaments/fonts.scss";
 @import "01_fundaments/button.scss";
 
+@import "02_atoms/customers.scss";
 
+@import "03_molecules/about_content.scss";
+@import "03_molecules/about_images.scss";
 
 @import "04_organisms/nav.scss";
 @import "04_organisms/cta.scss";
+@import "04_organisms/about.scss";
+@import "04_organisms/treatment_card.scss";
+@import "04_organisms/slider.scss";
+
+@import "05_layouts/treatment.scss";
+

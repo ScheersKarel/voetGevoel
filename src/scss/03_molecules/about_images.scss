@@ -1,0 +1,28 @@
+.about{
+    &__img{
+        &__bg{
+            margin-top: 20px;
+            position: absolute; 
+            top: 200; /* Plaatst het element aan de bovenkant van het scherm */
+            right: 0;
+
+        }
+        &__isabel{
+           position: absolute;
+           margin-top: 70px;
+            margin-left: 160px;
+            
+        }
+        &__strand{
+            position: absolute;
+            z-index: 10;
+            margin-top: 230px;
+        }
+        &__hey{
+            position: absolute;
+            z-index: 10;
+            margin-top: 160px;
+            margin-left: 88px;
+        }
+    }
+}

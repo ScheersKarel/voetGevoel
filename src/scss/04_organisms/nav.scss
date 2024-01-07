@@ -9,7 +9,7 @@ nav{
 }
 nav div a{
     font-size: 16px;
-
+    font-weight: 500;
     &:hover{ 
         color: $blue;
         text-decoration: underline;
@@ -23,7 +23,7 @@ nav div a{
 }
 
 nav div a:not(:last-child){
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 nav div a:last-child{
