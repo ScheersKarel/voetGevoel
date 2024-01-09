@@ -1,0 +1,63 @@
+.contact{
+    width: 80%;
+    margin: auto;
+    margin-top: -30px;
+    &__container{
+        &__content{
+            &__title{
+                padding-top: 20px;
+            }
+            &__info{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 20px;
+                &__text{
+                    color: $primary;
+                    margin-left: 3%;
+                    
+                }
+                &__icon{
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 15px 0px 15px;
+                    background-color:$primary ;
+                    transition: background-color 0.3s ease;
+                }
+                &__icon:hover{
+                    background-color: $primaryHoverColor;
+                }
+            }
+
+            &__line{
+                width: 25%;
+                border: 1px solid $primary;
+                margin-top: 20px;
+            }
+        }
+    }
+    
+}
+.contact_map{
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 1024px){
+    .contact{
+        overflow: visible;
+        &__title{
+            margin-top: 70px;
+        }
+       &__container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap:100px;
+
+        
+       }
+    }
+    .contact_map{
+        width: 80%;
+        margin: auto;
+        margin-top: 150px;
+    }
+}

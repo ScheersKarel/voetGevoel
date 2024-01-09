@@ -1,0 +1,104 @@
+Title: Home
+
+----
+
+Ctaimg: - file://d2gFdTyAUmQv2rzw
+
+----
+
+Ctatitle: Voet Gevoel
+
+----
+
+Ctasubtitle: Een praktijk waar jouw voeten dé hoofdrol spelen want zij zijn de spiegel van je lichaam.
+
+----
+
+Ctabutton: MAAK EEN AFSPRAAK
+
+----
+
+Aboutimg: - file://mpzdM8xcKrzIQxBT
+
+----
+
+Abouttitle: Over Voet Gevoel
+
+----
+
+Abouttextfirstp: Bij Voet Gevoel kan je terecht voor verschillende voetreflex-behandelingen. Je kan hier zowel voor een acuut als een chronisch gezondheidsprobleem terecht.
+
+----
+
+Abouttextsecondp: Achter Voet Gevoel staat een gepassioneerde voetreflexologe, Isabel Van den Eynde. Met een stevige wetenschappelijke achtergrond en de nodige know-how over voetreflexologie probeer ik je optimaal te helpen.
+
+----
+
+Aboutbutton: MEER OVER MIJ
+
+----
+
+Treatmenttitle: Wat is voetreflexologie?
+
+----
+
+Traetmenttextp1: Voetreflexologie … wat is dat nu eigenlijk? Tijdens een voetreflexologie-sessie worden zones gestimuleerd die overeenkomen met organen en lichaamsdelen. Zo wordt de zelfhelende kracht van het lichaam aangesproken: het krijgt gerichte impulsen om zichzelf te corrigeren en kan een verstoord evenwicht herstellen.
+
+----
+
+Traetmenttextp2: Voetreflexologie geeft je een relaxerend gevoel en brengt de werking van de zenuwen tot rust. Maar je kunt door een reflexbehandeling ook de bloedsomloop stimuleren en zodoende een reinigingsproces in het lichaam in werking stellen. Het doel in dit geval is je lichaam te stimuleren om te ontgiften waardoor het lichaam terug in balans komt.
+
+----
+
+Traetmenttextp3: Bij Voet Gevoel kan je kiezen tussen een <a href="./voetreflexologie.php" class="treatments__text__span"><u>voetreflex-behandeling</u></a>, een <a href="./vertebraal-correctie.php" class="treatments__text__span"><u>energetische vertebraal correctie</u></a> of een sessie <a href="./psychozone-harmonisering.php" class="treatments__text__span"><u>psychozone harmonisering.</u></a> Samen met jou bekijk ik graag welke behandeling jou het meeste kan helpen.
+
+----
+
+Treatmentscard:
+
+- 
+  cardimg:
+    - file://A97e42ym8SCmY9K9
+  cardtitle: Voetreflexologie
+  cardtext: >
+    Een deugddoende behandeling waarbij
+    systematisch alle organen en stelsels op
+    je voeten gestimuleerd worden. Werkt
+    relaxerend, vermindert pijn of doet de
+    pijn verdwijnen, stimuleert je
+    spijsvertering, … Een
+    voetreflex-sessie brengt de zenuwen tot
+    rust.
+  cardbutton: ONTDEK MEER
+  img:
+    - file://A97e42ym8SCmY9K9
+- 
+  cardimg:
+    - file://sypdz4I3XsT0rMeF
+  cardtitle: Energetische Vertebraal Correctie
+  cardtext: >
+    Een bijzondere correctie van de rug en
+    het bekken. Dit gebeurt via zachte
+    strijkbewegingen op voeten en handen.
+    Zinvol bij allerlei klachten. De
+    behandeling stimuleert tevens de organen
+    en kan toegepast worden bij elke
+    leeftijd.
+  cardbutton: ONTDEK MEER
+- 
+  cardimg:
+    - file://qbvNV99BZifMuOAA
+  cardtitle: Psychozone harmonisering
+  cardtext: >
+    Een uiterst zachte en meditatieve aanpak
+    van psychische en emotionele
+    stoornissen. Het is een combinatie van
+    reflexologie en acupressuur. De techniek
+    is ontwikkeld door een Chinese arts en
+    stamt uit de Chinese geneeskunde en
+    visie op gezondheid.
+  cardbutton: ONTDEK MEER
+
+----
+
+Uuid: StsKP2bEjU5oIYLq

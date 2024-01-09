@@ -1,0 +1,32 @@
+.about{
+    &__content{
+        margin-top: 150px;
+        &__text{
+            width: 90%;
+        }
+        &__button{
+            border: none;
+            background-color: $secondary;
+            color: white;
+            padding: 5px 10px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .about{
+        &__content{
+            &__text{
+                width: 90%;
+            }
+            &__button{
+                border: none;
+                background-color: $secondary;
+                color: white;
+                padding: 5px 10px;
+            }
+        }
+        
+    }
+}

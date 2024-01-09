@@ -1,0 +1,38 @@
+.about{
+    margin-top: -50px;
+    &__img{
+        width: 100%;
+        object-fit: cover;
+       
+    }
+    &__content{
+        width: 80%;
+        margin: auto;
+        margin-top: 150px;
+        &__title{
+            color:$primary;
+        }
+        &__button{
+            background-color: $primary;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+            padding: 10px 15px;
+           }
+           &__button:hover{
+            background-color: $primaryHoverColor;
+           }
+    }
+  
+}
+
+@media screen and (min-width: 1024px) {
+    .about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        &__content{
+            margin-left: 20%;
+            padding-top: 130px;
+        }
+    }
+}

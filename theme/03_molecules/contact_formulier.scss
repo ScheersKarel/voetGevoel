@@ -1,0 +1,55 @@
+.contact{
+    &__container{
+        overflow: hidden;
+        &__formulier{
+            &__title{
+                margin-top: 100px;
+            }
+
+            &__form{
+                
+                &__field{
+                    width: 96%;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    padding-left: 15px;
+                    background-color:#F1F1F1 ;
+                    border: none;
+                }
+               
+                &__bericht{
+                    width: 95%;
+                    padding: 15px;
+                    background-color:#F1F1F1 ;
+                    border: none;
+                    margin-bottom: 30px;
+                    font-size: 12px;
+                    font-family: 'poppins';
+                }
+            }
+            &__button{
+                border: none;
+                background-color: $primary;
+                transition: background-color 0.3s ease;
+                color: white;
+                padding: 10px 15px;
+            }
+            &__button:hover{
+                background-color: $primaryHoverColor;
+            
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contact{
+       &__container{
+        &__formulier{
+            &__title{
+                margin-top: 45px;
+            }
+        }
+       }
+    }
+}

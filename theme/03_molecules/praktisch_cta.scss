@@ -1,0 +1,71 @@
+.praktisch_cta{
+    background-image: url('../images/praktisch_cta.png');
+    background-size: cover;
+    color: white;
+    margin-top: -30px;
+    object-fit: cover;
+    background-position: center;
+    height: 400px;
+
+    &__title{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    &__subtitle{
+        width: 80%;
+        margin: auto;
+        font-family: 'edu sa beginner';
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    &__text{
+        width: 80%;
+        margin: auto;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    &__button{
+        background-color: $primary;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-left: 10%;
+       
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .praktisch_cta{
+        background-image: url('../images/praktisch_cta.png');
+        margin-top: -20px;
+        object-fit: cover;
+        background-position: center;
+        height: 600px;
+        margin-bottom: 20px;
+        &__title{
+            width: 40%;
+            margin-left: 20%;
+            padding-top: 150px;
+            margin-bottom: 100px;
+        }
+    
+        &__button{
+            background-color: $primary;
+            transition: background-color 0.3s ease;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 20%;
+        
+
+        }
+        &__button:hover{
+            background-color: $primaryHoverColor;
+        }
+    }
+}

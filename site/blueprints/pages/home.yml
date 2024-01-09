@@ -1,0 +1,93 @@
+title: Home
+
+columns:
+
+#col1
+  page:
+    width: 4/4
+
+    sections:
+
+      #cta section
+      cta:
+        type: fields
+        fields:
+
+          ctaImg:
+            type: files
+            layout: cards
+            label: Call To Action image
+            max: 1
+            info: "{{ file.dimensions }}"
+
+          ctaTitle:
+            type: text
+            label: Call To Action Title
+
+          ctaSubtitle:
+            type: text
+            label: Call To Action Subtitle
+
+          ctaButton:
+            type: text
+            label: Call To Action Button Text
+          
+          aboutImg:
+            type: files
+            layout: cards
+            label: About image
+            max: 1
+            info: "{{ file.dimensions }}"  
+          
+          aboutTitle:
+            type: text
+            label: About Title
+
+          aboutTextFirstP:
+            type: text
+            label: About Text First paragraf
+
+          aboutTextSecondP:
+            type: text
+            label: About Text Second paragraf
+
+          aboutButton:
+            type: text
+            label: About Button Text
+
+          treatmentTitle:
+            type: text
+            label: Treatment Title
+
+          traetmentTextP1:
+            type: text
+            label: Treatment Text Paragraf 1
+
+          traetmentTextP2:
+            type: text
+            label: Treatment Text Paragraf 2  
+
+          traetmentTextP3:
+              type: text
+              label: Treatment Text Paragraf 3
+            
+          treatmentsCard:
+              label: treatmentsCard
+              type: structure
+              fields:
+                cardImg:
+                  type: files
+                  layout: cards
+                  label: Card Image
+                  max: 1
+                  info: "{{ file.dimensions }}"  
+                cardTitle:
+                  label: Card Title
+                  type: text
+                cardText:
+                  label: Card Text
+                  type: text
+                cardButton:
+                  label: Card Button
+                  type: text
+              

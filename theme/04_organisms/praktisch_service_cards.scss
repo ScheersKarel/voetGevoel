@@ -1,0 +1,12 @@
+.praktisch_service_cards{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .praktisch_service_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+}

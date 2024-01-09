@@ -1,0 +1,44 @@
+.treatments{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+    &__title{
+        text-align: center;
+        padding-bottom: 30px;
+        color: $primary;
+    }
+    &__text{
+       padding-bottom: 50px ;
+        &__span{
+            color: $secondary;
+            
+        }
+    }
+}
+
+.treatment{
+    width: 80%;
+    margin: auto;
+
+}
+
+@media screen and (min-width: 1024px) {
+    .treatments{
+    
+        &__title{
+            text-align: left;
+        }
+    }
+    
+    .treatment{
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px; 
+      
+    }
+
+}

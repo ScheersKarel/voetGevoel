@@ -1,0 +1,84 @@
+.treatment{
+    &__card{
+
+        margin-top: 50px;
+         width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+
+        margin-bottom: 20px;
+       &__img{
+        width: 100%;
+       }
+        &__title{
+            text-align: center;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $primary;
+        }
+
+        &__line{
+            border:1px solid $primary;
+            width: 25%;
+            margin: auto;
+            margin-top: -20px;
+            margin-bottom: 20px;
+            
+        }
+
+        &__text{
+            text-align: center;
+            
+        }
+      
+        &__button{
+            border: none;
+            background-color: $primary;
+            transition: background-color 0.3s ease;
+            color: white;
+            padding: 10px 20px;
+            display: block; 
+            margin: 10px auto; 
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        &__button:hover{
+            background-color: $primaryHoverColor;
+            
+        }
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .treatment{
+        &__card{
+             width: calc(33.33% - 40px); /* 33.33% om drie kaarten naast elkaar te plaatsen, 40px voor de marge (20px aan beide zijden) */          
+            text-align: center;
+            margin-bottom: 20px;
+           
+            &__img{
+                width: 80%;
+            }
+            &__title{
+               width: 80%;
+               margin: auto;
+            }
+    
+            &__line{
+                width: 25%;
+                margin: auto;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+          
+            &__button{
+               margin-top: 40px;
+            }
+        }
+    }
+
+}

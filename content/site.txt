@@ -1,1 +1,9 @@
 Title: Site Title
+
+----
+
+Navimg: - file://VU4DumgA0iocigTC
+
+----
+
+Img: - file://RP3lWtp2D4JJureZ
