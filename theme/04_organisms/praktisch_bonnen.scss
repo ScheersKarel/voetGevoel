@@ -1,15 +1,17 @@
-.praktisch_bonnen{
-    &__title{
+.praktisch_bonnen {
+    &__title {
         width: 80%;
         margin: auto;
         margin-top: 100px;
     }
-    &__text{
+
+    &__text {
         width: 80%;
         margin: auto;
         margin-top: 50px;
     }
-    &__highlight_text{
+
+    &__highlight_text {
         width: 80%;
         margin: auto;
         margin-top: 30px;
@@ -17,18 +19,20 @@
         font-weight: 500;
     }
 
-    &__form{
+    &__form {
         width: 80%;
         margin: auto;
         margin-top: 20px;
         overflow: hidden;
-        &__field{
+
+        &__field {
             width: 88%;
             padding: 20px;
             border: 2px solid black;
         }
     }
-    &__button{
+
+    &__button {
         border: none;
         background-color: $primary;
         transition: background-color 0.3s ease;
@@ -37,50 +41,60 @@
         margin-left: 10%;
         margin-top: 30px;
     }
-    &__button:hover{
+
+    &__button:hover {
         background-color: $primaryHoverColor;
     }
-    &__img_container{
+
+    &__img_container {
         background-image: url('../images/bonnenBackground.png');
         margin-top: 50px;
         height: 400px;
-        overflow: hidden;
         display: flex;
         justify-content: end;
-        &__img{
+        width: 80%;
+        margin-left: 10%;
+
+        &__img {
             height: 90%;
             margin-top: 5%;
+            margin-right: 8%;
         }
     }
 }
 
-@media screen and (min-width: 1024px){
-    .praktisch_bonnen_container{
+@media screen and (min-width: 1024px) {
+    .praktisch_bonnen_container {
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 100px;
-       
+
     }
-    .praktisch_bonnen{
+
+    .praktisch_bonnen {
         margin-left: 13%;
-       
-        &__img_container{
+
+        &__img_container {
             overflow: visible;
             margin-top: 100px;
             height: 500px;
-          &__img{
-            height: 80%;
-            margin-top: 10%;
-            margin-right: 30%;
-          }
+            width: 100%;
+
+            &__img {
+                height: 80%;
+                margin-top: 10%;
+                margin-right: 40%;
+            }
         }
-        &__form{
+
+        &__form {
             overflow: visible;
             width: 27%;
             margin-left: 0px;
         }
     }
-    .form_container{
+
+    .form_container {
         width: 80%;
         margin: auto;
         display: flex;

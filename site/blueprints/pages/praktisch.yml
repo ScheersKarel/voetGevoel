@@ -50,3 +50,17 @@ columns:
           cadeaubonButton:
             type: text
             label: Cadeaubon Button Text
+
+          cadeaubonBgImg:
+            type: files
+            layout: cards
+            label: Cadeaubon Image
+            max: 1
+            info: "{{ file.dimensions }}"
+
+          cadeaubonImg:
+            type: files
+            layout: cards
+            label: Cadeaubon Image
+            max: 1
+            info: "{{ file.dimensions }}"

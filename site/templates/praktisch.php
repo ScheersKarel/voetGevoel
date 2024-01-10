@@ -117,8 +117,8 @@
 
         </form>
     </div>
-    <div class="praktisch_bonnen__img_container">
-        <img src="./resources/images/praktisch_bon.png" alt="" class="praktisch_bonnen__img_container__img">
+    <div class="praktisch_bonnen__img_container" style="background-image: url(<?= $page->cadeaubonBgImg()->toFile()->url() ?>);">
+        <img src="<?= $page->cadeaubonImg()->toFile()->url() ?>" alt="" class="praktisch_bonnen__img_container__img">
     </div>
 </div>
 
