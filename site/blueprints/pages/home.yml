@@ -4,12 +4,12 @@ columns:
 
 #col1
   page:
-    width: 4/4
+    width: 5/5
 
     sections:
 
       #cta section
-      FullPage:
+      CallToAction:
         type: fields
         fields:
 
@@ -19,57 +19,74 @@ columns:
             label: Call To Action image
             max: 1
             info: "{{ file.dimensions }}"
+            width: 1/4
 
           ctaTitle:
             type: text
             label: Call To Action Title
+            width: 1/4
 
           ctaSubtitle:
-            type: text
+            type: textarea
             label: Call To Action Subtitle
+            width: 1/4
 
           ctaButton:
             type: text
             label: Call To Action Button Text
+            width: 1/4
+
           
+          aboutTitle:
+            type: text
+            label: About Title
+            width: 1/5
+            size: large
+
+          aboutTextFirstP:
+            type: textarea
+            label: About Text First paragraf
+            width: 1/5
+
+
+          aboutTextSecondP:
+            type: textarea
+            label: About Text Second paragraf
+            width: 1/5
+
+          aboutButton:
+            type: text
+            label: About Button Text
+            width: 1/5
+
           aboutImg:
             type: files
             layout: cards
             label: About image
             max: 1
             info: "{{ file.dimensions }}"  
-          
-          aboutTitle:
-            type: text
-            label: About Title
-
-          aboutTextFirstP:
-            type: text
-            label: About Text First paragraf
-
-          aboutTextSecondP:
-            type: text
-            label: About Text Second paragraf
-
-          aboutButton:
-            type: text
-            label: About Button Text
+            width: 1/5
+            
 
           treatmentTitle:
             type: text
             label: Treatment Title
+            width: 1/4
 
           traetmentTextP1:
-            type: text
+            type: textarea
             label: Treatment Text Paragraf 1
+            width: 1/4
 
           traetmentTextP2:
-            type: text
-            label: Treatment Text Paragraf 2  
+            type: textarea
+            label: Treatment Text Paragraf 2 
+            width: 1/4 
 
           traetmentTextP3:
-              type: text
+              type: textarea
               label: Treatment Text Paragraf 3
+              width: 1/4
             
           treatmentsCard:
               label: treatmentsCard
@@ -113,5 +130,3 @@ columns:
                 customerText:
                   label: Card Text
                   type: text
-               
-              
