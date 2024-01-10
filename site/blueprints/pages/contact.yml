@@ -1,0 +1,63 @@
+title: Contact
+
+columns:
+
+#col1
+  page:
+    width: 4/4
+
+    sections:
+
+      #cta section
+      ContactPage:
+        type: fields
+        fields:
+
+          contactTitle:
+            type: text
+            label: Contact Title
+
+          contactSubtitle:
+            type: text
+            label: Contact Subtitle
+
+          contactText:
+              label: Contact Text
+              type: text
+          
+          number:
+            type: text
+            label: Phone number
+
+          email:
+            type: email
+            label: Contact Email
+          
+          address:
+            type: text
+            label: Address
+
+          intagramUrl:
+            type: url
+            label: Contact Instagram
+
+          instagram:
+            type: text
+            label: Instagram Name
+
+          facebookUrl:
+            type: url
+            label: Contact Facebook
+          
+          facebook:
+            type: text
+            label: Facebook Name
+
+          rekeningnummer:
+            type: text
+            label: Rekeningnummer
+
+          formTitle:
+            type: text
+            label: Form Title
+             

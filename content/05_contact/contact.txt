@@ -2,4 +2,56 @@ Title: Contact
 
 ----
 
+Contacttitle: Contacteer Mij
+
+----
+
+Contactsubtitle: Graag meer informatie?
+
+----
+
+Contacttext: Wilt u graag meer informatie over mijn werkwijze, mogelijkheden of tarieven? Neem gerust vrijblijvend contact op. Ik informeer u graag over wat ik voor u kan betekenen. U kan natuurlijk ook een afspraak maken via het formulier of telefonisch. <br><br>U kan mij bereiken op:
+
+----
+
+Number: 0485 60 48 88
+
+----
+
+Email: isabel.vandeneynde@hotmail.com
+
+----
+
+Address: Herenboslaan 12A, 2500 Lier
+
+----
+
+Intagramurl: https://www.instagram.com/voet_gevoel/
+
+----
+
+Instagram: Voet Gevoel
+
+----
+
+Facebookurl: https://www.facebook.com/IsabelVoetGevoel?locale=nl_NL
+
+----
+
+Facebook: Voet Gevoel
+
+----
+
+Rekeningnummer: BE19 9734 5653 8012
+
+----
+
+Formtitle: Of stuur een berichtje!
+
+----
+
+Instagramurl: https://www.instagram.com/voet_gevoel/
+
+----
+
 Uuid: 4uunVssKmidx8SPR
