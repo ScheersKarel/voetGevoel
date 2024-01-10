@@ -11,7 +11,7 @@ sections:
     fields:
       navImg:
         type: files
-        label: Image
+        label: Logo
         layout: cards
         max: 1
         info: "{{ file.dimensions }}"
