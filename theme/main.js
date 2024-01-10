@@ -12,9 +12,15 @@ document.addEventListener("DOMContentLoaded", function () {
       const linkPage = link.href.split("/").pop();
 
       if (currentPage === linkPage) {
-        link.style.textDecoration = 'underline'; // Optioneel: voeg onderstreping toe
-        link.style.color = '#10587B';
-        break;
+
+        if (currentPage === "contact") {
+          link.style.textDecoration = 'underline';
+        }
+
+        else {
+          link.style.textDecoration = 'underline';
+          link.style.color = '#10587B';
+        }
       }
     }
   }

@@ -1,0 +1,33 @@
+title: About
+
+columns:
+
+#col1
+  page:
+    width: 4/4
+
+    sections:
+
+      #cta section
+      AboutPage:
+        type: fields
+        fields:
+
+          aboutTitle:
+            type: text
+            label: About Title
+          
+          aboutText:
+              label: about Text
+              type: structure
+              fields:
+                text:
+                  label: Text
+                  type: text
+
+          aboutImg:
+            type: files
+            layout: cards
+            label: about image
+            max: 1
+            info: "{{ file.dimensions }}"

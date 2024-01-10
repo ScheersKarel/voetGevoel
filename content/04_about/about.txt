@@ -2,4 +2,48 @@ Title: About
 
 ----
 
+Abouttitle: Meer over mij!
+
+----
+
+Abouttext:
+
+- 
+  text: >
+    Ik ben Isabel, 47 jaar oud, moeder van
+    twee prachtige dochters en gelukkig
+    getrouwd met een fantastische man,
+    Geert.
+- 
+  text: >
+    Al van jongs af aan ben ik eïntrigeerd
+    door het menselijk lichaam n alles wat
+    te maken heeft met iologie, fysiologie
+    en anatomie. De euze om een Master
+    Biologie te studeren ag voor de hand.
+    Omdat ik graag met ensen werk, heb ik
+    ook de erarenopleiding afgerond.
+- 
+  text: >
+    Na mijn studie ging ik als onderzoeker
+    an de K.U. Leuven aan de slag, waar ik e
+    voornamelijk bezighield met
+    childklierhormonen. In 2001 besloot ik
+    ijn passie voor lesgeven te volgen en
+    ing ik aan de slag in de erarenopleiding
+    aan de Karel de Grote ogeschool. Naast
+    het lesgeven, kreeg ik r de kans om me
+    verder te verdiepen, et een focus op
+    onder andere coaching, erbindende
+    communicatie en het leiden an
+    verschillende projecten.
+- 
+  text: 'Tegelijkertijd groeide mijn interesse in de kracht van voetreflexologie. Na het volgen van basis- en verdiepingscursussen Voetreflexologie bij Syntra, heb ik mezelf ingeschreven voor aanvullende cursussen om mijn kennis te verbreden. Mijn specialisaties zijn voetreflexologie, psychozone harmonisering en energetische vertebraal correctie.                 Als persoon omschrijf ik mezelf als empathisch, een tikkeltje perfectionistisch en ontzettend leergierig.'
+
+----
+
+Aboutimg: - file://kcMbKsbkta7cAmjs
+
+----
+
 Uuid: oiZ5Tf4wjFZibaeD
