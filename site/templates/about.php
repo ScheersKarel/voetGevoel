@@ -1,4 +1,5 @@
 <?php snippet('nav'); ?>
+
 <div class="over_mij">
 
     <div class="over_mij__content">
@@ -15,4 +16,5 @@
 
     <img class="over_mij__img" src="<?= $page->aboutImg()->toFile()->url() ?>" alt="">
 </div>
+
 <?php snippet('footer'); ?>
