@@ -6,4 +6,100 @@ Navimg: - file://VU4DumgA0iocigTC
 
 ----
 
+Footerimg: - file://jpH4zcI5n3PuNxZB
+
+----
+
+Footercard1title: Wil je een afspraak maken?
+
+----
+
+Footercard1text: Je bent heel welkom in mijn praktijk in Lier (koningshooikt)
+
+----
+
+Footercard1button: MAAK EEN AFSPRAAK
+
+----
+
+Footercard1buttonurl: contact
+
+----
+
+Footercard1icon1: Herenboslaan 12A, 2500 Lier
+
+----
+
+Footercard1icon1url: https://www.google.com/maps/place/Herenboslaan+12A,+2500+Lier/@51.0950966,4.6052671,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3fd2e941050e1:0x6f4db5f2aa4e8abc!8m2!3d51.0950933!4d4.607842!16s%2Fg%2F11krgxxqq6?entry=ttu
+
+----
+
+Footercard1icon2: isabel.vandeneynde@hotmail.com
+
+----
+
+Footercard1icon3: 0474648539
+
+----
+
+Footercard2title: Voet Gevoel als geschenk?
+
+----
+
+Footercard2text: Dat kan zeker! Schenk meer dan een uur me-time, balans en een Voet Gevoel
+
+----
+
+Footercard2button: ONTDEK GESCHENKBON
+
+----
+
+Footercard2buttonurl: praktisch
+
+----
+
+Footercard2icon1: Voet Gevoel
+
+----
+
+Footercard2icon1url: https://www.instagram.com/voet_gevoel/
+
+----
+
+Footercard2icon2: Voet Gevoel
+
+----
+
+Footercard2icon2url: https://www.facebook.com/IsabelVoetGevoel?locale=nl_NL
+
+----
+
+Footercard:
+
+- 
+  cardtitle: Wil je een afspraak maken?
+  cardtext: >
+    Je bent heel welkom in mijn praktijk in
+    Lier (koningshooikt)
+  cardbutton: MAAK EEN AFSPRAAK
+  cardbuttonurl: contact
+- 
+  cardtitle: Voet Gevoel als geschenk?
+  cardtext: >
+    Dat kan zeker! Schenk meer dan een uur
+    me-time, balans en een Voet Gevoel
+  cardbutton: ONTDEK GESCHENKBON
+  cardbuttonurl: praktisch
+
+----
+
 Img: - file://RP3lWtp2D4JJureZ
+
+----
+
+Iconcard:
+
+- 
+  cardurl: null
+  cardtext: null
+  _id: 50c2cff8-41d9-4f2e-825d-1302476e7526
