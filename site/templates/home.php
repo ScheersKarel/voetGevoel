@@ -58,52 +58,27 @@
     <!-- customers -->
 
     <div class="customers">
-        <h2 class="customers__title">Wat mijn klanten zeggen</h2>
+        <h2 class="customers__title"><?= $page->customerTitle() ?></h2>
         <!-- Slideshow container -->
         <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-                <div class="slider_content">
+            <?php foreach ($page->customerCard()->toStructure() as $item) : ?>
+                <div class="mySlides fade">
+                    <div class="slider_content">
 
-                    <div class="slider_content__content">
-                        <p class="slider_content__content__date">
-                            May 8, 2020
-                        </p>
-                        <h2 class="slider_content__content__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        <p class="slider_content__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+                        <div class="slider_content__content">
+                            <p class="slider_content__content__date">
+                                <?= $item->customerDate() ?>
+                            </p>
+                            <h2 class="slider_content__content__title"> <?= $item->customerTitle() ?></h2>
+                            <p class="slider_content__content__text"><?= $item->customerText() ?></p>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
+            <?php endforeach ?>
 
-            <div class="mySlides fade">
-                <div class="slider_content">
-
-                    <div class="slider_content__content">
-                        <p class="slider_content__content__date">
-                            May 8, 2020
-                        </p>
-                        <h2 class="slider_content__content__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        <p class="slider_content__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="slider_content">
-
-                    <div class="slider_content__content">
-                        <p class="slider_content__content__date">
-                            May 8, 2020
-                        </p>
-                        <h2 class="slider_content__content__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        <p class="slider_content__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                    </div>
-
-                </div>
-            </div>
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -114,9 +89,9 @@
 
         <!-- The dots/circles -->
         <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+            <?php foreach ($page->customerCard()->toStructure() as $index => $item) : ?>
+                <span class="dot" onclick="currentSlide(<?= $index + 1 ?>)"></span>
+            <?php endforeach ?>
         </div>
     </div>
 

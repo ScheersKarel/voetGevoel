@@ -74,6 +74,7 @@ columns:
           treatmentsCard:
               label: treatmentsCard
               type: structure
+              max: 3
               fields:
                 cardImg:
                   type: files
@@ -90,4 +91,24 @@ columns:
                 cardButton:
                   label: Card Button
                   type: text
+
+          customerTitle:
+            type: text
+            label: Customer Title
+            
+          customerCard:
+              label: Customer Card
+              type: structure
+              max: 5
+              fields:
+                customerDate:
+                  type: date
+                  label: Date
+                customerTitle:
+                  label: Card Title
+                  type: text
+                customerText:
+                  label: Card Text
+                  type: text
+               
               

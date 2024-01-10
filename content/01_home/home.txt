@@ -101,4 +101,96 @@ Treatmentscard:
 
 ----
 
+Customertitle: Wat mijn klanten zeggen
+
+----
+
+Customercard:
+
+- 
+  customerdate: 2024-01-10
+  customertitle: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+  customertext: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Cursus nibh mauris, nec
+    turpis orci lectus maecenas. Suspendisse
+    sed magna eget nibh in turpis. Consequat
+    duis diam lacus arcu. Faucibus venenatis
+    felis id augue sit cursus pellentesque
+    enim arcu. Elementum felis magna pretium
+    in tincidunt. Suspendisse sed magna eget
+    nibh in turpis. Consequat duis diam
+    lacus arcu.Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Cursus nibh
+    mauris, nec turpis orci lectus maecenas.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+    Faucibus venenatis felis id augue sit
+    cursus pellentesque enim arcu. Elementum
+    felis magna pretium in tincidunt.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+- 
+  customerdate: 2024-01-09
+  customertitle: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+  customertext: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Cursus nibh mauris, nec
+    turpis orci lectus maecenas. Suspendisse
+    sed magna eget nibh in turpis. Consequat
+    duis diam lacus arcu. Faucibus venenatis
+    felis id augue sit cursus pellentesque
+    enim arcu. Elementum felis magna pretium
+    in tincidunt. Suspendisse sed magna eget
+    nibh in turpis. Consequat duis diam
+    lacus arcu.Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Cursus nibh
+    mauris, nec turpis orci lectus maecenas.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+    Faucibus venenatis felis id augue sit
+    cursus pellentesque enim arcu. Elementum
+    felis magna pretium in tincidunt.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+- 
+  customerdate: 2024-01-01
+  customertitle: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit.
+  customertext: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Cursus nibh mauris, nec
+    turpis orci lectus maecenas. Suspendisse
+    sed magna eget nibh in turpis. Consequat
+    duis diam lacus arcu. Faucibus venenatis
+    felis id augue sit cursus pellentesque
+    enim arcu. Elementum felis magna pretium
+    in tincidunt. Suspendisse sed magna eget
+    nibh in turpis. Consequat duis diam
+    lacus arcu.Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit. Cursus nibh
+    mauris, nec turpis orci lectus maecenas.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+    Faucibus venenatis felis id augue sit
+    cursus pellentesque enim arcu. Elementum
+    felis magna pretium in tincidunt.
+    Suspendisse sed magna eget nibh in
+    turpis. Consequat duis diam lacus arcu.
+- 
+  customerdate: 2024-01-02
+  customertitle: test card
+  customertext: 'was leuk '
+- 
+  customerdate: 2023-12-05
+  customertitle: 'meer test '
+  customertext: test
+
+----
+
 Uuid: StsKP2bEjU5oIYLq
