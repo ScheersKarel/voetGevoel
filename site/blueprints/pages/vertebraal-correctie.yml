@@ -8,33 +8,37 @@ columns:
 
     sections:
 
-      Vertebraal-correctiePage:
+      TitleSection:
         type: fields
         fields:
 
           pageTitle:
             type: text
             label: Page Title
-
+            width: 1/2
+            
+      ButtonSection:
+        type: fields
+        fields:
           firstButton:
             type: text
             label: First Button Text
+            width: 1/3
 
           secondButton:
             type: text
             label: Second Button Text
+            width: 1/3
 
           thirdButton:
             type: text
             label: Third Button Text
+            width: 1/3
 
-          img:
-            type: files
-            label: Image
-            layout: cards
-            max: 1
-            info: "{{ file.dimensions }}"
 
+      contentSection:
+        type: fields
+        fields:
           contentTitle:
             type: text
             label: Content Title
@@ -51,3 +55,12 @@ columns:
             type: text
             label: Content Button Text
           
+      imgSection:
+        type: fields
+        fields:
+          img:
+            type: files
+            label: Image
+            layout: cards
+            max: 1
+            info: "{{ file.dimensions }}"

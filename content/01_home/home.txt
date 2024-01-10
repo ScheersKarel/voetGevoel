@@ -18,10 +18,6 @@ Ctabutton: MAAK EEN AFSPRAAK
 
 ----
 
-Aboutimg: - file://mpzdM8xcKrzIQxBT
-
-----
-
 Abouttitle: Over Voet Gevoel
 
 ----
@@ -35,6 +31,10 @@ Abouttextsecondp: Achter Voet Gevoel staat een gepassioneerde voetreflexologe, I
 ----
 
 Aboutbutton: MEER OVER MIJ
+
+----
+
+Aboutimg: - file://mpzdM8xcKrzIQxBT
 
 ----
 

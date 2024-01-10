@@ -4,12 +4,12 @@ columns:
 
 #col1
   page:
-    width: 5/5
+    width: 4/4
 
     sections:
 
       #cta section
-      CallToAction:
+      CallToActionSection:
         type: fields
         fields:
 
@@ -36,7 +36,10 @@ columns:
             label: Call To Action Button Text
             width: 1/4
 
-          
+      aboutSection:
+        type: fields
+        fields: 
+        
           aboutTitle:
             type: text
             label: About Title
@@ -46,13 +49,13 @@ columns:
           aboutTextFirstP:
             type: textarea
             label: About Text First paragraf
-            width: 1/5
+            width: 1/4
 
 
           aboutTextSecondP:
             type: textarea
             label: About Text Second paragraf
-            width: 1/5
+            width: 1/4
 
           aboutButton:
             type: text
@@ -66,8 +69,10 @@ columns:
             max: 1
             info: "{{ file.dimensions }}"  
             width: 1/5
-            
 
+      treatmentSection:
+        type: fields
+        fields:
           treatmentTitle:
             type: text
             label: Treatment Title
@@ -112,6 +117,9 @@ columns:
                   label: Card Button Url
                   type: text
 
+      customerSection:
+        type: fields
+        fields:
           customerTitle:
             type: text
             label: Customer Title

@@ -8,46 +8,63 @@ columns:
 
     sections:
 
-      psychozone-harmonisering:
+      titleSection:
         type: fields
         fields:
 
           pageTitle:
             type: text
             label: Page Title
+            width: 1/2
+
+
+      buttonSection:
+        type: fields
+        fields:
 
           firstButton:
             type: text
             label: First Button Text
+            width: 1/3
 
           secondButton:
             type: text
             label: Second Button Text
+            width: 1/3
 
           thirdButton:
             type: text
             label: Third Button Text
+            width: 1/3
 
+      contentSection:
+        type: fields
+        fields:
+          
+          contentTitle:
+            type: text
+            label: Content Title
+
+          contentText:
+            label: Content Text
+            type: structure
+            fields:
+              text:
+              label: Text
+              type: text
+                  
+          contentButton:
+            type: text
+            label: Content Button Text
+
+      imgSection:
+        type: fields
+        fields:
           img:
             type: files
             label: Image
             layout: cards
             max: 1
             info: "{{ file.dimensions }}"
-
-          contentTitle:
-            type: text
-            label: Content Title
-
-          contentText:
-              label: Content Text
-              type: structure
-              fields:
-                text:
-                  label: Text
-                  type: text
-                  
-          contentButton:
-            type: text
-            label: Content Button Text
           
+      
