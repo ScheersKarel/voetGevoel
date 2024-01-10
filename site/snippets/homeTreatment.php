@@ -15,7 +15,7 @@
                  <h3 class="treatment__card__title"><?= $item->cardTitle() ?></h3>
                  <div class="treatment__card__line"></div>
                  <p class="treatment__card__text"><?= $item->cardText() ?></p>
-                 <a href="./voetreflexologie.php"> <button class="treatment__card__button"><?= $item->cardButton() ?></button></a>
+                 <a href="behandelingen/<?= $item->cardButtonUrl() ?>"> <button class="treatment__card__button"><?= $item->cardButton() ?></button></a>
              </div>
          <?php endforeach ?>
      </div>

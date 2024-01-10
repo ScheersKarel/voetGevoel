@@ -5,5 +5,5 @@
     <?php foreach ($page->contentText()->toStructure() as $paragraf) : ?>
         <p><?= $paragraf->text() ?></p>
     <?php endforeach ?>
-    <a href="./contact.php"><button class="psychozone_harmonisering__cta_button"><?= $page->contentButton() ?></button></a>
+    <a href="../contact"><button class="psychozone_harmonisering__cta_button"><?= $page->contentButton() ?></button></a>
 </div>

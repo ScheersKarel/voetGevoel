@@ -8,7 +8,7 @@
          <p class="about__content__text">
              <?= $page->aboutTextSecondP() ?>
          </p>
-         <a href="./about.php"><button class="about__content__button"><?= $page->aboutButton() ?></button></a>
+         <a href="about"><button class="about__content__button"><?= $page->aboutButton() ?></button></a>
      </div>
 
      <div class="about__img">

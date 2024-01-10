@@ -91,6 +91,9 @@ columns:
                 cardButton:
                   label: Card Button
                   type: text
+                cardButtonUrl:
+                  label: Card Button Url
+                  type: text
 
           customerTitle:
             type: text

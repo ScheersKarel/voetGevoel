@@ -26,7 +26,7 @@
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
             <p class="service_card__info__text">Ontgiftende werking</p>
         </div>
-        <a href="./voetreflexologie.php"><button class="service_card__button">ONTDEK MEER</button></a>
+        <a href="behandelingen/voetreflexologie"><button class="service_card__button">ONTDEK MEER</button></a>
 
     </div>
 
@@ -49,7 +49,7 @@
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
             <p class="service_card__info__text">Inzetbaar bij diverse problemen of pijnen</p>
         </div>
-        <a href="./vertebraal-correctie.php"><button class="service_card__button">ONTDEK MEER</button></a>
+        <a href="behandelingen/vertebraal-correctie"><button class="service_card__button">ONTDEK MEER</button></a>
 
     </div>
 
@@ -72,7 +72,7 @@
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
             <p class="service_card__info__text">Zelftherapie mogelijk dankzij acupressuurpunten</p>
         </div>
-        <a href="./psychozone-harmonisering.php"><button class="service_card__button">ONTDEK MEER</button></a>
+        <a href="behandelingen/psychozone-harmonisering"><button class="service_card__button">ONTDEK MEER</button></a>
 
     </div>
 </div>
