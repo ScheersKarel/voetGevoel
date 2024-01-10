@@ -1,0 +1,52 @@
+title: Praktisch
+
+columns:
+
+#col1
+  page:
+    width: 4/4
+
+    sections:
+
+      PraktischPage:
+        type: fields
+        fields:
+
+          ctaImg:
+            type: files
+            layout: cards
+            label: Call To Action image
+            max: 1
+            info: "{{ file.dimensions }}"
+        
+          ctaTitle:
+            type: text
+            label: Call To Action Title
+
+          ctaButton:
+            type: text
+            label: Call To Action Button Text
+
+          praktischText:
+              label: Praktisch Text
+              type: structure
+              fields:
+                text:
+                  label: Text
+                  type: text
+
+          cadeaubonTitle:
+            type: text
+            label: Cadeaubon Title
+
+          cadeaubonText:
+            type: text
+            label: Cadeaubon Text
+
+          cadeaubonHighlightText:
+            type: text
+            label: Cadeaubon Highlight Text
+
+          cadeaubonButton:
+            type: text
+            label: Cadeaubon Button Text

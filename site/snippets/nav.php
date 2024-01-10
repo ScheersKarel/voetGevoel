@@ -25,9 +25,9 @@
                     <div class="dropdown" id="dropdownButton">
                         <a href="#" class="dropbtn">Behandelingen <iconify-icon icon="gridicons:dropdown" style="color: #10587b; " width="20" height="20"></iconify-icon></a>
                         <div class="dropdown-content">
-                            <a href="./voetreflexologie.php">Voetreflexologie</a>
-                            <a href="./vertebraal-correctie.php">Energetische Vertebraal Correctie</a>
-                            <a href="./psychozone-harmonisering.php">Psychozone harmonisering</a>
+                            <?php foreach ($pages->children() as $child) : ?>
+                                <a href="<?= $child->url() ?>"><?= $child->title() ?></a>
+                            <?php endforeach ?>
                         </div>
                     </div>
                 <?php endif ?>

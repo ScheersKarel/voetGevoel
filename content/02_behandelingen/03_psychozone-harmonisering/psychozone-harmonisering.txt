@@ -1,1 +1,57 @@
 Title: Psychozone Harmonisering
+
+----
+
+Pagetitle: Waarvoor kan je terecht bij Voet Gevoel?
+
+----
+
+Firstbutton: Voetreflexologie
+
+----
+
+Secondbutton: Energetische vertebraal correctie
+
+----
+
+Thirdbutton: Psychozone harmonisering
+
+----
+
+Img: - file://a0o3CuMvZJg2NRzQ
+
+----
+
+Contenttitle: Wat houdt Psychozone harmonisering in?
+
+----
+
+Contenttext:
+
+- 
+  text: ' <span class="psychozone_harmonisering__span">‘Psychozone harmonisering’</span> is een uiterst <span class="psychozone_harmonisering__span">zachte en meditatieve aanpak</span> die nog meer afgestemd is op <span class="psychozone_harmonisering__span">psychische en emotionele problemen.</span> Deze techniek stamt uit de <span class="psychozone_harmonisering__span">Chinese geneeskunde.</span> Het is een combinatie van <span class="psychozone_harmonisering__span">reflexologie en acupressuur,</span> volgens een behandelschema <span class="psychozone_harmonisering__span">afgestemd op jouw probleem.</span>'
+- 
+  text: >
+    Deze methode kan helpen bij een breed
+    scala aan problemen, waaronder
+    eetstoornissen, concentratiegebrek,
+    nervositeit en stress, slaapstoornissen,
+    burn-out, CVS, examenkoorts,
+    contactmoeilijkheden, autisme,
+    onzekerheid, depressie, angstaanvallen,
+    hyperventilatie, faalangst,
+    alcoholverslaving, rookverslaving,
+    medicijnenverslaving en symptomen
+    gerelateerd aan de menopauze.
+- 
+  text: ' Tijdens de behandeling gebruik ik een <span class="psychozone_harmonisering__span">essentiële olie</span> die de werking van de behandeling optimaliseert.'
+- 
+  text: '   Aan het einde van de sessie leer ik je de, voor jou nodige, <span class="psychozone_harmonisering__span">acupressuurpunten</span> aan, zodat <span class="psychozone_harmonisering__span">je ook jezelf kan verder helpen bij moeilijkheden.</span> Je krijgt uiteraard een overzichtje van deze punten mee.'
+
+----
+
+Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Uuid: J8eCOI3J5HdGlQBP

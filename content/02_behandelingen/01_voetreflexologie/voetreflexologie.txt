@@ -1,1 +1,64 @@
 Title: Voetreflexologie
+
+----
+
+Pagetitle: Waarvoor kan je terecht bij Voet Gevoel?
+
+----
+
+Firstbutton: Voetreflexologie
+
+----
+
+Secondbutton: Energetische vertebraal correctie
+
+----
+
+Thirdbutton: Psychozone harmonisering
+
+----
+
+Img: - file://9VPi8MOZ3WezZJar
+
+----
+
+Contenttitle: Wat houdt Voetreflexologie in?
+
+----
+
+Contenttext:
+
+- 
+  text: ' Tijdens een voetreflexologiesessie worden <span class="voetreflexologie__span">zones op je voeten gestimuleerd.</span> Dit wekt een reactie op in het orgaan of lichaamsdeel dat overeenkomt met die zone. Via voetreflexologie wordt de<span class="voetreflexologie__span"> zelfhelende kracht van het lichaam</span> aangesproken. Je lichaam krijgt gerichte impulsen om zichzelf te corrigeren. Zo kan een <span class="voetreflexologie__span">verstoord evenwicht van het lichaam herstellen.</span> Bovendien werkt voetreflexologie ook <span class="voetreflexologie__span"> relaxerend</span> en <span class="voetreflexologie__span">ontgiftend.</span>'
+- 
+  text: 'Waarmee kan voetreflexologie je helpen? Voeten zijn een dankbaar medium want je kan inwerken op tal van lichaamsstelsels. Het kan heilzaam zijn bij allerlei problemen:'
+- 
+  text: '· <span class="voetreflexologie__span"> Spijsverteringsproblemen: </span>, opgeblazen gevoel, prikkelbare darm, gevoelige maag, …'
+- 
+  text: '· <span class="voetreflexologie__span"> Ademhalingsstoornissen:</span> sinusitis, bronchitis, astma, …'
+- 
+  text: '· <span class="voetreflexologie__span"> Hormonale stoornissen:</span> premenstrueel syndroom, verminderde vruchtbaarheid, …'
+- 
+  text: '· <span class="voetreflexologie__span">Problemen met het zenuw- en spierstelsel: </span>, hoofdpijn, …'
+- 
+  text: '· <span class="voetreflexologie__span">Verzwakking van het lymfestelsel:</span> oedeem, …'
+- 
+  text: '· <span class="voetreflexologie__span"> Bloedsomloopinsufficiëntie:</span> koude voeten, ontstekingen, …'
+- 
+  text: '· <span class="voetreflexologie__span"> Problemen bij het uitscheidingsstelsel: </span>blaasproblemen, nierproblemen, onvoldoende ontgifting, …'
+- 
+  text: '·<span class="voetreflexologie__span"> Stress, slaapmoeilijkheden, nervositeit, …</span>'
+- 
+  text: ' Voel je je gespannen of gestresseerd? Voetreflexologie geeft je een relaxerend gevoel en brengt zo de werking van de zenuwen tot rust. Je kunt door een reflexbehandeling ook de bloedsomloop stimuleren en zodoende een <span class="voetreflexologie__span">reinigingsproces</span> in het lichaam in werking stellen. Het doel is in dit geval je lichaam te stimuleren om te <span class="voetreflexologie__span">ontgiften</span> waardoor het terug in balans komt.'
+
+----
+
+Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Voetreflexologieimg: - file://9VPi8MOZ3WezZJar
+
+----
+
+Uuid: kKHlg8tiaxx8S9Ji

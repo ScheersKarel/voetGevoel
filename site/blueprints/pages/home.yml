@@ -9,7 +9,7 @@ columns:
     sections:
 
       #cta section
-      cta:
+      FullPage:
         type: fields
         fields:
 

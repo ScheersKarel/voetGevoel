@@ -2,4 +2,49 @@ Title: Praktisch
 
 ----
 
+Ctaimg: - file://xaoOjvdeZy9lGlzA
+
+----
+
+Ctatitle: Wens je een afspraak bij Voet Gevoel?
+
+----
+
+Ctabutton: MAAK EEN AFSPRAAK
+
+----
+
+Praktischtext:
+
+- 
+  text: >
+    Samen met jou bespreek ik graag de
+    mogelijkheden en kiezen we de voor jou
+    ideale behandeling.
+- 
+  text: 'De kostprijs van een behandeling is<span class="praktisch__text__span"> €60. </span>Elke behandeling wordt met veel zorg gegeven. Een behandeling duurt ongeveer 90 minuten.'
+- 
+  text: >
+    Alle behandelingen gaan door in mijn
+    praktijk aan de Herenboslaan 12A te 2500
+    Lier (Koningshooikt)
+
+----
+
+Cadeaubontitle: Geef je graag een unieke voetreflexbehandeling als geschenk?
+
+----
+
+Cadeaubontext: Naast mijn voetverzorgingsdiensten bied ik ook de mogelijkheid om met onze geschenkbon een stukje welzijn te schenken. Een attent gebaar voor gezonde en blije voeten, perfect voor jezelf of een dierbare.
+
+----
+
+Cadeaubonhighlighttext: Voor €60 schenk je meer dan een uur me-time, balans en een Voet Gevoel.
+
+----
+
+Cadeaubonbutton: BESTEL MIJN BON
+
+----
+
 Uuid: pcitB5NNsIktNqHv

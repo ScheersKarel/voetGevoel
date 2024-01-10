@@ -1,1 +1,56 @@
 Title: Energetische Vertebraal Correctie
+
+----
+
+Pagetitle: Waarvoor kan je terecht bij Voet Gevoel?
+
+----
+
+Firstbutton: Voetreflexologie
+
+----
+
+Secondbutton: Energetische vertebraal correctie
+
+----
+
+Thirdbutton: Psychozone harmonisering
+
+----
+
+Img: - file://XNoQopHUDYRUP02d
+
+----
+
+Contenttitle: Wat houdt Energetische Vertebraal Correctie in?
+
+----
+
+Contenttext:
+
+- 
+  text: ' <span class="vertebraal_correctie__span">‘Energetische Vertebraal Correctie’</span> is een specifieke behandelingsmethode met <span class="vertebraal_correctie__span">zachte strijkbewegingen op de voeten en handen.</span>'
+- 
+  text: ' Deze behandeling kan bij heel wat klachten ingezet worden:'
+- 
+  text: ' o<span class="vertebraal_correctie__span"> Allerlei aandoeningen van de wervelkolom:</span> pijn in de wervelkolom of schouders, scheefstand van het bekken, bekkeninstabiliteit, scheefstand van de wervelkolom (bvb. scoliose, uitgesproken lordose of kyfose, …)'
+- 
+  text: ' o<span class="vertebraal_correctie__span"> Problemen met organen:</span> spijsverteringsproblemen, andere orgaanklachten (zoals lever, nieren, longen, …), …'
+- 
+  text: ' o <span class="vertebraal_correctie__span">Hoofdpijn, migraine, energieverlies, stress, burn-out, psychische klachten, … </span>'
+- 
+  text: ' Deze techniek baseert zich op de <span class="vertebraal_correctie__span">oosterse geneeskunde</span> en werkt via de meridianen (energiebanen).'
+- 
+  text: ' Na <span class="vertebraal_correctie__span">inspectie van de rug en het bekken</span> behandel ik reflexzones van de meridianen (overeenkomstig met de vastgestelde blokkades) op de voet. Dit gebeurt met zachte strijkjes over de reflexzones. Regelmatig controleer ik welke effecten de behandeling heeft en wat er nog nodig is. Bij nek- of schouderproblemen worden ook de reflexzones van de meridianen op de hand behandeld.'
+- 
+  text: ' De behandeling is <span class="vertebraal_correctie__span">volledig pijnloos</span> en wordt als <span class="vertebraal_correctie__span">zeer zacht, ontspannend en aangenaam</span> ervaren. Bovendien is E.V.C. bijzonder effectief. <span class="vertebraal_correctie__span">Het bindweefsel en de spieren ontspannen</span> zich en organen kunnen terug juist functioneren. Ook <span class="vertebraal_correctie__span">ledematen</span> kunnen terug in een <span class="vertebraal_correctie__span">correcte stand</span> komen.'
+- 
+  text: '  E.V.C. wordt ingezet bij kinderen (vanaf de leeftijd van 5 jaar) en volwassenen.'
+
+----
+
+Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Uuid: HsIW6Y6HsH1sJVJP

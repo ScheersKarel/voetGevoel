@@ -1,0 +1,22 @@
+title: behandelingen
+
+sections:
+  subpagetitle:
+    type: fields
+    fields:
+      header:
+        type: headline
+        label: Subpages
+        numbered: false
+        help: Dit zijn alle subpages 
+        
+
+  subpages:
+    type: pages
+    max: 3
+    layout: cards
+    size: medium
+    info: "{{ page.heading }}"
+    image:
+      ratio: 16/9
+      cover: true

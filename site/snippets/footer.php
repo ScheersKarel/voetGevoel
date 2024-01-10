@@ -50,6 +50,7 @@
         <p class="footer__rights__text"><a href="#">PRIVACY</a> | <a href="#">TERMS</a> | <a href="#">SITE CREDIT</a></p>
     </div>
 </div>
+</body>
 
 </html>
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
