@@ -13,17 +13,24 @@ columns:
         type: fields
         fields:
 
+          mainPageTitle:
+            type: headline
+            label: Page Title
+
           contactTitle:
             type: text
-            label: Contact Title
+            label: Contact
 
+          contentTitle:
+            type: headline
+            label: Content 
           contactSubtitle:
             type: text
             label: Contact Subtitle
 
           contactText:
               label: Contact Text
-              type: text
+              type: textarea
           
           number:
             type: text
@@ -56,6 +63,10 @@ columns:
           rekeningnummer:
             type: text
             label: Rekeningnummer
+
+          formSection:
+            type: headline
+            label: Form 
 
           formTitle:
             type: text

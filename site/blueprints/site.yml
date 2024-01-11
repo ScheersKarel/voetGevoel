@@ -6,7 +6,7 @@ sections:
     type: pages
     
 
-  test:
+  NavSection:
     type: fields
     fields:
       navImg:
@@ -15,76 +15,100 @@ sections:
         layout: cards
         max: 1
         info: "{{ file.dimensions }}"
+  
+  FooterSection:
+    type: fields
+    fields:
+      footerCard1Title:
+        type: text
+        label: Footer Card 1 Title
+        width: 1/2
 
+      footerCard2Title:
+        type: text
+        label: Footer Card 2 Title
+        width: 1/2
+
+      
+      footerCard1Text:  
+        type: text
+        label: Footer Card 1 Text
+        width: 1/2
+
+      footerCard2Text:  
+        type: text
+        label: Footer Card 2 Text
+        width: 1/2
+
+      footerCard1Button:
+        type: text
+        label: Footer Card 1 Button
+        width: 1/2
+      
+      footerCard2Button:
+        type: text
+        label: Footer Card 2 Button
+        width: 1/2
+      
+      footerCard1ButtonUrl:
+        type: text
+        label: Footer Card 1 Button Url
+        width: 1/2
+
+      footerCard2ButtonUrl:
+        type: text
+        label: Footer Card 2 Button Url
+        width: 1/2
+
+      footerCard1Icon1:
+        type: text
+        label: Footer Card 1 Icon 1 text
+        width: 1/2
+
+      footerCard2Icon1:
+        type: text
+        label: Footer Card 2 Icon 1 text
+        width: 1/2
+      
+      footerCard1Icon1Url:
+        type: url
+        label: Footer Card 1 Icon 1 Url
+        width: 1/2
+
+      footerCard2Icon1Url:
+        type: url
+        label: Footer Card 2 Icon 1 Url
+        width: 1/2
+
+      footerCard1Icon2:
+        type: email
+        label: Footer Card 1 Icon 2 text
+        width: 1/2
+
+      footerCard2Icon2:
+        type: text
+        label: Footer Card 2 Icon 1 text
+        width: 1/2
+
+      footerCard1Icon3:
+        type: text
+        label: Footer Card 1 Icon 3 text
+        width: 1/2
+     
+      footerCard2Icon2Url:
+        type: url
+        label: Footer Card 2 Icon 2 Url
+        width: 1/2
+    
+  imgSection:
+    type: fields
+    fields:
+    
       footerImg:
         type: files
         label: Footer Image
         layout: cards
         max: 1
         info: "{{ file.dimensions }}"
-
-      footerCard1Title:
-        type: text
-        label: Footer Card 1 Title
-
-      footerCard1Text:  
-        type: text
-        label: Footer Card 1 Text
-
-      footerCard1Button:
-        type: text
-        label: Footer Card 1 Button
+        
       
-      footerCard1ButtonUrl:
-        type: text
-        label: Footer Card 1 Button Url
-
-      footerCard1Icon1:
-        type: text
-        label: Footer Card 1 Icon 1
-      
-      footerCard1Icon1Url:
-        type: url
-        label: Footer Card 1 Icon 1 Url
-
-      footerCard1Icon2:
-        type: email
-        label: Footer Card 1 Icon 2
-
-      footerCard1Icon3:
-        type: text
-        label: Footer Card 1 Icon 3
-
-      footerCard2Title:
-        type: text
-        label: Footer Card 2 Title
-
-      footerCard2Text:  
-        type: text
-        label: Footer Card 2 Text
-
-      footerCard2Button:
-        type: text
-        label: Footer Card 2 Button
-      
-      footerCard2ButtonUrl:
-        type: text
-        label: Footer Card 2 Button Url
-
-      footerCard2Icon1:
-        type: text
-        label: Footer Card 2 Icon 1
-      
-      footerCard2Icon1Url:
-        type: url
-        label: Footer Card 2 Icon 1 Url
-
-      footerCard2Icon2:
-        type: text
-        label: Footer Card 2 Icon 1
-      
-      footerCard2Icon2Url:
-        type: url
-        label: Footer Card 2 Icon 2 Url
-
-                

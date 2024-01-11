@@ -8,9 +8,12 @@ columns:
 
     sections:
 
-      PraktischPage:
+      CtaSection:
         type: fields
         fields:
+          CtaSectionTitle:
+            type: headline
+            label: Call To Action
 
           ctaImg:
             type: files
@@ -18,45 +21,70 @@ columns:
             label: Call To Action image
             max: 1
             info: "{{ file.dimensions }}"
+            width: 1/3
         
           ctaTitle:
             type: text
             label: Call To Action Title
+            width: 1/3
 
           ctaButton:
             type: text
             label: Call To Action Button Text
+            width: 1/3
 
+      contentSection:
+        type: fields
+        fields:
+          contentSectionTitle:
+            type: headline
+            label: Content Text
           praktischText:
               label: Praktisch Text
               type: structure
               fields:
                 text:
                   label: Text
-                  type: text
+                  type: textarea
+
+      cadeaubonSection:
+        type: fields
+        fields:
+          cadeaubonSectionTitle:
+            type: headline
+            label: Cadeaubon Section
 
           cadeaubonTitle:
             type: text
             label: Cadeaubon Title
+            width: 1/2
 
           cadeaubonText:
-            type: text
+            type: textarea
             label: Cadeaubon Text
+            width: 1/2
 
           cadeaubonHighlightText:
             type: text
             label: Cadeaubon Highlight Text
+            width: 1/2
 
           cadeaubonButton:
             type: text
             label: Cadeaubon Button Text
+            width: 1/2
+
+          imgSectionTitle:
+            type: headline
+            label: Images for cadeaubon
 
           cadeaubonBgImg:
             type: files
             layout: cards
-            label: Cadeaubon Image
+            label: Cadeaubon Background Image
             max: 1
             info: "{{ file.dimensions }}"
+            width: 1/2
 
           cadeaubonImg:
             type: files
@@ -64,3 +92,4 @@ columns:
             label: Cadeaubon Image
             max: 1
             info: "{{ file.dimensions }}"
+            width: 1/2

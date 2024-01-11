@@ -12,7 +12,9 @@ columns:
       CallToActionSection:
         type: fields
         fields:
-
+          CtaSectionTitle:
+            type: headline
+            label: Call To Action
           ctaImg:
             type: files
             layout: cards
@@ -39,7 +41,10 @@ columns:
       aboutSection:
         type: fields
         fields: 
-        
+          AboutSectionTitle:
+            type: headline
+            label: About Voet Gevoel
+
           aboutTitle:
             type: text
             label: About Title
@@ -73,26 +78,33 @@ columns:
       treatmentSection:
         type: fields
         fields:
+          treatmentSectionTitle:
+            type: headline
+            label: Treatment Text
           treatmentTitle:
             type: text
             label: Treatment Title
-            width: 1/4
+            width: 4/4
 
           traetmentTextP1:
             type: textarea
             label: Treatment Text Paragraf 1
-            width: 1/4
+            width: 1/3
 
           traetmentTextP2:
             type: textarea
             label: Treatment Text Paragraf 2 
-            width: 1/4 
+            width: 1/3 
 
           traetmentTextP3:
               type: textarea
               label: Treatment Text Paragraf 3
-              width: 1/4
-            
+              width: 1/3
+
+          treatmentSectionCardTitle:
+            type: headline
+            label: Treatment Cards 
+
           treatmentsCard:
               label: treatmentsCard
               type: structure
@@ -120,10 +132,18 @@ columns:
       customerSection:
         type: fields
         fields:
+          CustomerSectionTitle:
+            type: headline
+            label: Costumer Title
+
           customerTitle:
             type: text
             label: Customer Title
             
+          CustomerSectionCard:
+            type: headline
+            label: Costumer Cards
+
           customerCard:
               label: Customer Card
               type: structure

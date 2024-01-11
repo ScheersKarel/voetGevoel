@@ -49,7 +49,7 @@ columns:
               fields:
                 text:
                   label: Text
-                  type: text
+                  type: textarea
                   
           contentButton:
             type: text

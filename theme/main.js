@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (currentPage === linkPage) {
 
-        if (currentPage === "contact") {
+        if (currentPage === "contact" || currentPage === "voetreflexologie" || currentPage === "vertebraal-correctie" || currentPage === "psychozone-harmonisering") {
           link.style.textDecoration = 'underline';
         }
 
@@ -21,6 +21,11 @@ document.addEventListener("DOMContentLoaded", function () {
           link.style.textDecoration = 'underline';
           link.style.color = '#10587B';
         }
+      }
+      // Check if the current page is the home page
+      else if (currentPage === "" && linkPage === "voetGevoel") {
+        link.style.textDecoration = 'underline';
+        link.style.color = '#10587B';
       }
     }
   }
