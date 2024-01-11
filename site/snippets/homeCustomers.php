@@ -29,7 +29,7 @@
     <br>
 
     <!-- The dots/circles -->
-    <div style="text-align:center">
+    <div class="dots" style="text-align:center">
         <?php foreach ($page->customerCard()->toStructure() as $index => $item) : ?>
             <span class="dot" onclick="currentSlide(<?= $index + 1 ?>)"></span>
         <?php endforeach ?>

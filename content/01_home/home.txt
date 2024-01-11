@@ -10,7 +10,7 @@ Ctatitle: Voet Gevoel
 
 ----
 
-Ctasubtitle: Een praktijk waar jouw voeten dé hoofdrol spelen want zij zijn de spiegel van je lichaam.
+Ctasubtitle: Een praktijk waar jouw voeten de hoofdrol spelen want zij zijn de spiegel van je lichaam.
 
 ----
 
@@ -50,7 +50,7 @@ Traetmenttextp2: Voetreflexologie geeft je een relaxerend gevoel en brengt de we
 
 ----
 
-Traetmenttextp3: Bij Voet Gevoel kan je kiezen tussen een <a href="./voetreflexologie.php" class="treatments__text__span"><u>voetreflex-behandeling</u></a>, een <a href="./vertebraal-correctie.php" class="treatments__text__span"><u>energetische vertebraal correctie</u></a> of een sessie <a href="./psychozone-harmonisering.php" class="treatments__text__span"><u>psychozone harmonisering.</u></a> Samen met jou bekijk ik graag welke behandeling jou het meeste kan helpen.
+Traetmenttextp3: Bij Voet Gevoel kan je kiezen tussen een <a href="behandelingen/voetreflexologie" class="treatments__text__span"><u>voetreflex-behandeling</u></a>, een <a href="behandelingen/vertebraal-correctie" class="treatments__text__span"><u>energetische vertebraal correctie</u></a> of een sessie <a href="behandelingen/psychozone-harmonisering" class="treatments__text__span"><u>psychozone harmonisering.</u></a> Samen met jou bekijk ik graag welke behandeling jou het meeste kan helpen.
 
 ----
 
