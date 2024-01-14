@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const hamburgerIcon = document.querySelector('.hamburger-icon');
-  const navbar = document.getElementById('navbar');
+  const navbar = document.getElementById('navbarMobile');
 
-  // Functie om de huidige pagina te markeren
   function markCurrentPage() {
     const currentPage = window.location.pathname.split("/").pop();
     const links = document.querySelectorAll("#navbar a");
@@ -32,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (window.innerWidth > 1024) {
     navbar.classList.add('active');
-    markCurrentPage(); // Markeer de huidige pagina als de site wordt geladen
+    markCurrentPage();
   }
 
   hamburgerIcon.addEventListener('click', function () {
@@ -42,31 +41,35 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener('resize', function () {
     if (window.innerWidth > 1024) {
       navbar.classList.add('active');
-      markCurrentPage(); // Markeer de huidige pagina bij het wijzigen van de schermgrootte
+      markCurrentPage();
     } else {
       navbar.classList.remove('active');
     }
   });
-});
 
+});
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const dropdownButton = document.getElementById('dropdownButton');
-  const dropdownContent = document.querySelector('.dropdown-content');
+  const dropdownButtons = document.querySelectorAll('.dropdown .dropbtn');
 
-  let dropdownVisible = false;
+  dropdownButtons.forEach(function (dropdownButton) {
+    const dropdownContent = dropdownButton.nextElementSibling; // Zoek het bijbehorende dropdown-content element
 
-  dropdownButton.addEventListener('click', function () {
-    dropdownVisible = !dropdownVisible;
+    let dropdownVisible = false;
 
-    if (dropdownVisible) {
-      dropdownContent.style.display = 'block';
-    } else {
-      dropdownContent.style.display = 'none';
-    }
+    dropdownButton.addEventListener('click', function () {
+      dropdownVisible = !dropdownVisible;
+
+      if (dropdownVisible) {
+        dropdownContent.style.display = 'block';
+      } else {
+        dropdownContent.style.display = 'none';
+      }
+    });
   });
 });
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -96,4 +99,3 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
-

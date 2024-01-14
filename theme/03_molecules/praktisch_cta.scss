@@ -41,12 +41,10 @@
 
 @media screen and (min-width: 1024px) {
     .praktisch_cta {
-        background-image: url('../images/praktisch_cta.png');
-        margin-top: -20px;
-        object-fit: cover;
-        background-position: center;
+
         height: 600px;
         margin-bottom: 20px;
+        margin-top: 50px;
 
         &__title {
             width: 40%;

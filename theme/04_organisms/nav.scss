@@ -1,32 +1,33 @@
-nav {
+.navMobile {
     width: 90%;
     margin: auto;
     padding: 10px;
     overflow: hidden;
-    position: relative;
 }
 
-nav .header {
+.navDesctop {
+    display: none;
+}
+
+.navMobile .header {
     display: flex;
     justify-content: space-between;
     /* Om de elementen te verdelen, de afbeelding zal naar rechts worden geduwd */
     align-items: center;
 }
 
-nav .hamburger-icon {
-    margin-top: 5px;
-}
 
-nav img {
-    width: 50%;
-    margin-top: 10px;
-    max-width: 200px;
+
+.navMobile img {
+    width: 80%;
+    max-width: 250px;
 }
 
 
-#navbar {
+#navbarMobile {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, max-height 1s ease-in-out;
     transform: translateY(-100%);
+    opacity: 0;
     max-height: 0;
     overflow: hidden;
     pointer-events: none;
@@ -34,18 +35,18 @@ nav img {
     font-size: 120%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: transparent;
 }
 
-#navbar.active {
+#navbarMobile.active {
     transform: translateY(0);
-
+    opacity: 1;
     max-height: 500px;
     /* of de hoogte die je wilt hebben */
     pointer-events: auto;
 }
 
-#navbar:not(.active) {
+#navbarMobile:not(.active) {
     transition: transform 5s ease-in-out, opacity 5s ease-in-out, max-height 1s ease-in-out;
     /* Aangepaste overgangsduratie voor deactiveren */
     max-height: 0;
@@ -54,134 +55,94 @@ nav img {
 }
 
 
-#navbar a {
+#navbarMobile a {
     display: block;
     margin-bottom: 15px;
     border-bottom: 1px solid transparent;
     padding: 3px 6px 3px 6px;
 }
 
-#navbar a:hover {
+#navbarMobile a:hover {
     text-decoration: underline;
+    transition: 0.3s ease-in-out;
 }
 
-.dropdown-content a:hover {
-    background-color: $secondary;
-    color: white;
-    text-decoration: none;
-}
-
-
-.dropdown {
-    display: inline-block;
-}
-
-/* Inhoud van de dropdown */
-.dropdown-content {
-
-    top: 0;
+#navbarMobile .dropdown-content {
     display: none;
-    width: 100%;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    display: block;
-    width: 100%;
-
 }
 
 
 @media screen and (min-width: 1024px) {
-    nav {
-        margin-top: 30x;
-        margin-bottom: 20px;
+    .navMobile {
+        display: none;
     }
 
-    nav img {
-        margin-top: 10px;
+    .navDesctop {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
+
+    .navDesctop img {
+        width: 100%;
+        max-width: 300px;
+        /* Pas dit aan aan je behoeften */
+        position: absolute;
+        z-index: 1000;
+        top: 10px;
+
+    }
+
+
+    #navbar {
+        display: flex;
+        margin-top: 0px;
+        flex-direction: row;
+    }
+
+    #navbar a {
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+
+    .nav_cta {
+        color: white;
+        background-color: $primary;
+        height: 25px;
+        padding: 5px 10px 5px 10px;
+        position: relative;
+        top: -5px;
+    }
+
+    #navbar .dropdown-content a {
+        display: flex;
+        align-items: center;
+        transition: background-color 0.3s ease;
+        padding: 5px;
+
+    }
+
+    #navbar .dropdown-content a:hover {
+        background-color: $secondary;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    #navbar .dropdown-content {
+        animation: fadeIn 1s ease;
+        display: none;
+    }
 
     #navbar .dropbtn {
         display: flex;
         align-items: center;
     }
 
-    .header img {
-        width: 100%;
-        max-width: 250px;
-        /* Pas dit aan aan je behoeften */
-        position: absolute;
-        z-index: 1000;
-        top: 0;
-        left: 15%;
-        transform: translateX(-50%);
-    }
-
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    nav {
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-
-    nav .hamburger-icon {
-        display: none;
-    }
-
-    #navbar {
-        width: 70%;
-        display: flex;
-        justify-content: space-evenly;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-
-    #navbar a:not(:last-child) {
-        margin-right: 5%;
-    }
-
-    #navbar .dropdown-content a {
-        display: flex;
-        align-items: center;
-    }
-
-    #navbar .dropdown-content a:hover {
-        background-color: $secondary;
-        color: white;
-        text-decoration: none;
-    }
-
-    #navbar .dropdown-content {
-        animation: fadeIn 1s ease;
-    }
-
-    #navbar .nav_cta {
-        padding: 8px 13px;
-        background-color: $primary;
-        color: white;
-        height: 22px;
-        transition: background-color 0.3s ease;
-    }
-
-    #navbar .nav_cta:hover {
-        background-color: $primaryHoverColor;
-        color: white;
-
-    }
 }

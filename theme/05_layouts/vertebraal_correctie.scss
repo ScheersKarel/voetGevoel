@@ -1,13 +1,15 @@
-.vertebraal_correctie{
+.vertebraal_correctie {
     width: 80%;
     margin: auto;
-    &__title{
+
+    &__title {
         width: 90%;
         margin: auto;
     }
-    &__buttons{
+
+    &__buttons {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         width: fit-content;
         row-gap: 20px;
         margin-top: 50px;
@@ -16,105 +18,120 @@
             background-color: $secondary;
             color: white;
             border: none;
-            padding: 10px 20px ;
+            padding: 10px 20px;
             text-align: center;
         }
 
-        &__button{
+        &__button {
             text-align: center;
-            padding: 10px 20px ;
+            padding: 10px 20px;
             background: transparent;
             transition: background-color 0.3s ease;
             border: 1px solid black;
         }
-        &__button:hover{
+
+        &__button:hover {
             background-color: $secondary;
-           border: 1px solid white;
-           color: white;
+            border: 1px solid white;
+            color: white;
         }
-        &__button:hover a{
-           color: white;
+
+        &__button:hover a {
+            color: white;
         }
     }
-    &__cta_button{
+
+    &__cta_button {
         background-color: $primary;
         transition: background-color 0.3s ease;
         color: white;
         border: none;
-        padding: 10px 20px ;
+        padding: 10px 20px;
         margin-top: 50px;
     }
-    &__cta_button:hover{
+
+    &__cta_button:hover {
         background-color: $primaryHoverColor;
     }
-    &__subtitle{
+
+    &__subtitle {
         margin-top: 80px;
         color: $primary;
     }
-    &__span{
+
+    &__span {
         color: $primary;
     }
+
     /*&__line{
         width: 20%;
         margin-left: -20px;
         border: 1px solid $primary;
     }*/
-    &__images{
+    &__images {
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .vertebraal_correctie{
-        &__title{
+    .vertebraal_correctie {
+        margin-top: 80px;
+
+        &__title {
             text-align: center;
         }
-        &__buttons{
+
+        &__buttons {
             grid-template-columns: 1fr 1fr 1fr;
             column-gap: 50px;
             margin: auto;
             margin-top: 50px;
-            &__active_button{
+
+            &__active_button {
                 background-color: $secondary;
                 color: white;
                 border: none;
-                padding: 10px 20px ;
+                padding: 10px 20px;
             }
 
-            &__button{
-                padding: 10px 20px ;
+            &__button {
+                padding: 10px 20px;
                 background: transparent;
                 border: 1px solid black;
             }
         }
-        &__cta_button{
+
+        &__cta_button {
             background-color: $primary;
             color: white;
             border: none;
-            padding: 10px 20px ;
+            padding: 10px 20px;
             margin-top: 50px;
         }
-        &__subtitle{
+
+        &__subtitle {
             margin-top: 80px;
-            
+
         }
-        
-        &__container{
+
+        &__container {
             display: grid;
             grid-template-columns: 3fr 2fr;
             column-gap: 10px;
         }
-        &__images{
+
+        &__images {
             display: block;
             width: 80%;
             margin-top: 100px;
 
-            &__img3{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+            &__img3 {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 margin-bottom: 40px;
             }
-            &__img2{
-               width: 80%;
+
+            &__img2 {
+                width: 80%;
                 margin-left: 10%;
             }
         }

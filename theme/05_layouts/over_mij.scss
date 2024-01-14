@@ -1,37 +1,43 @@
-.over_mij{
+.over_mij {
     width: 80%;
     margin: auto;
-    &__title{
+    margin-top: -15px;
+
+    &__title {
         color: $primary;
     }
-    &__line{
+
+    &__line {
         border: 1px solid $secondary;
         width: 20%;
         margin-left: -20px;
         margin-bottom: 20px;
     }
 
-    &__text{
+    &__text {
         margin-top: 20px;
     }
 
-    &__span{
+    &__span {
         color: $secondary;
     }
-    &__img{
-       width: 100%;
+
+    &__img {
+        margin-top: 50px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .over_mij{
+    .over_mij {
+        margin-top: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 100px;
 
-        &__img{
+        &__img {
             margin-top: 50px;
         }
-       
+
     }
 }
