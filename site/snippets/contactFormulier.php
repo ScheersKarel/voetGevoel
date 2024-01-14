@@ -20,7 +20,7 @@
 
         <div class="contact__container__formulier__form">
             <p class="contact__container__formulier__form__text">Telefoonnummer</p>
-            <input class="contact__container__formulier__form__field" type="number" name="number" placeholder="Telefoonnummer">
+            <input class="contact__container__formulier__form__field" type="text" name="number" placeholder="Telefoonnummer">
         </div>
 
         <div class="contact__container__formulier__form">
