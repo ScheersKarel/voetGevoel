@@ -9,7 +9,7 @@
         <p class="praktisch_bonnen__highlight_text">
             <?= $page->cadeaubonHighlightText() ?>
         </p>
-        <form action="https://formsubmit.co/karel.scheers@telenet.be" method="post">
+        <form action="https://formsubmit.co/isabelvandeneynde@hotmail.com" method="post">
             <div class="form_container">
 
                 <div class="praktisch_bonnen__form">

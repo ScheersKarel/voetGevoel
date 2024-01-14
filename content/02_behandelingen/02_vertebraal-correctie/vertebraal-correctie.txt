@@ -18,10 +18,6 @@ Thirdbutton: Psychozone harmonisering
 
 ----
 
-Img: - file://XNoQopHUDYRUP02d
-
-----
-
 Contenttitle: Wat houdt Energetische Vertebraal Correctie in?
 
 ----
@@ -50,6 +46,10 @@ Contenttext:
 ----
 
 Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Img: - file://XNoQopHUDYRUP02d
 
 ----
 
