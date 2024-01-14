@@ -5,7 +5,7 @@
         <div class="footer__container__item">
             <h2 class="footer__container__item__title"><?= $site->footerCard1Title() ?> </h2>
             <p class="footer__container__item__text"><?= $site->footerCard1Text() ?></p>
-            <a href="contact"><button class="footer__container__item__button"><?= $site->footerCard1Button() ?></button></a>
+            <a href="<?= $site->footerCard1ButtonUrl() ?>"><button class="footer__container__item__button"><?= $site->footerCard1Button() ?></button></a>
 
             <div class="footer__container__item__socials">
                 <a class="footer__container__item__socials__button" href="<?= $site->footerCard1icon1Url() ?>">
