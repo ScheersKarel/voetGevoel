@@ -78,7 +78,7 @@
     }
 
     .navDesctop {
-        width: 90%;
+        width: 80%;
         margin: auto;
         padding: 10px;
         overflow: hidden;
@@ -91,9 +91,8 @@
     .navDesctop img {
         width: 100%;
         max-width: 300px;
-        /* Pas dit aan aan je behoeften */
         position: absolute;
-        z-index: 1000;
+        z-index: 10;
         top: 10px;
 
     }
@@ -108,7 +107,10 @@
     #navbar a {
         margin-top: 20px;
         margin-bottom: 0;
-        margin-right: 30px;
+    }
+
+    #navbar a:not(:last-child) {
+        margin-right: 50px;
     }
 
     .nav_cta {
