@@ -4,8 +4,12 @@
 
     &__title {
         background-color: #EAF2F4;
-        padding: 40px;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        height: 100px;
+        align-items: center;
+        padding: 20px;
     }
 
     &__subtitle {
