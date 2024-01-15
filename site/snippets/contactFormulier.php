@@ -2,7 +2,7 @@
     <h2 class="contact__container__formulier__title">
         <?= $page->formTitle() ?>
     </h2>
-    <form action="https://formsubmit.co/isabelvandeneynde@hotmail.com" method="POST">
+    <form action="https://formsubmit.co/<?= $page->email() ?>" method="POST">
         <div class="contact__container__formulier__form">
             <p class="contact__container__formulier__form__text">Voornaam</p>
             <input class="contact__container__formulier__form__field" type="text" name="first_name" required placeholder="Voornaam">

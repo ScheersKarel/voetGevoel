@@ -48,7 +48,7 @@
 
     <div class="footer__rights">
         <p class="footer__rights__text">© VOET GEVOEL</p>
-        <p class="footer__rights__text"><a href="#">PRIVACY</a> | <a href="#">TERMS</a> | <a href="#">SITE CREDIT</a></p>
+        <p class="footer__rights__text">BTW BE 0803.676.276</p>
     </div>
 </div>
 </body>

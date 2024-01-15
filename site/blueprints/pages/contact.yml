@@ -60,10 +60,6 @@ columns:
             type: text
             label: Facebook Name
 
-          rekeningnummer:
-            type: text
-            label: Rekeningnummer
-
           formSection:
             type: headline
             label: Form 

@@ -44,12 +44,8 @@
         </div>
     </a>
 
-    <div class="contact__container__content__line"></div>
 
-    <div class="contact__container__content__info">
-        <iconify-icon class="contact__container__content__info__icon" icon="mdi:paper-outline" style="color: white;" width="20" height="20"></iconify-icon>
-        <p class="contact__container__content__info__text"><?= $page->rekeningnummer() ?></p>
-    </div>
+
 
 
 </div>

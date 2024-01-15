@@ -93,3 +93,8 @@ columns:
             max: 1
             info: "{{ file.dimensions }}"
             width: 1/2
+
+          formEmail:
+            type: email
+            label: Cadeaubon Form Email
+            width: 1/2
