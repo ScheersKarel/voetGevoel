@@ -18,10 +18,6 @@ Thirdbutton: Psychozone harmonisering
 
 ----
 
-Img: - file://9VPi8MOZ3WezZJar
-
-----
-
 Contenttitle: Wat houdt Voetreflexologie in?
 
 ----
@@ -29,7 +25,7 @@ Contenttitle: Wat houdt Voetreflexologie in?
 Contenttext:
 
 - 
-  text: ' Tijdens een voetreflexologiesessie worden <span class="voetreflexologie__span">zones op je voeten gestimuleerd.</span> Dit wekt een reactie op in het orgaan of lichaamsdeel dat overeenkomt met die zone. Via voetreflexologie wordt de<span class="voetreflexologie__span"> zelfhelende kracht van het lichaam</span> aangesproken. Je lichaam krijgt gerichte impulsen om zichzelf te corrigeren. Zo kan een <span class="voetreflexologie__span">verstoord evenwicht van het lichaam herstellen.</span> Bovendien werkt voetreflexologie ook <span class="voetreflexologie__span"> relaxerend</span> en <span class="voetreflexologie__span">ontgiftend.</span>'
+  text: 'Tijdens een voetreflexologiesessie worden <span class="voetreflexologie__span">zones op je voeten gestimuleerd.</span> Dit wekt een reactie op in het orgaan of lichaamsdeel dat overeenkomt met die zone. Via voetreflexologie wordt de<span class="voetreflexologie__span"> zelfhelende kracht van het lichaam</span> aangesproken. Je lichaam krijgt gerichte impulsen om zichzelf te corrigeren. Zo kan een <span class="voetreflexologie__span">verstoord evenwicht van het lichaam herstellen.</span> Bovendien werkt voetreflexologie ook <span class="voetreflexologie__span"> relaxerend</span> en <span class="voetreflexologie__span">ontgiftend.</span>'
 - 
   text: 'Waarmee kan voetreflexologie je helpen? Voeten zijn een dankbaar medium want je kan inwerken op tal van lichaamsstelsels. Het kan heilzaam zijn bij allerlei problemen:'
 - 
@@ -49,11 +45,35 @@ Contenttext:
 - 
   text: '·<span class="voetreflexologie__span"> Stress, slaapmoeilijkheden, nervositeit, …</span>'
 - 
-  text: ' Voel je je gespannen of gestresseerd? Voetreflexologie geeft je een relaxerend gevoel en brengt zo de werking van de zenuwen tot rust. Je kunt door een reflexbehandeling ook de bloedsomloop stimuleren en zodoende een <span class="voetreflexologie__span">reinigingsproces</span> in het lichaam in werking stellen. Het doel is in dit geval je lichaam te stimuleren om te <span class="voetreflexologie__span">ontgiften</span> waardoor het terug in balans komt.'
+  text: 'Voel je je gespannen of gestresseerd? Voetreflexologie geeft je een relaxerend gevoel en brengt zo de werking van de zenuwen tot rust. Je kunt door een reflexbehandeling ook de bloedsomloop stimuleren en zodoende een <span class="voetreflexologie__span">reinigingsproces</span> in het lichaam in werking stellen. Het doel is in dit geval je lichaam te stimuleren om te <span class="voetreflexologie__span">ontgiften</span> waardoor het terug in balans komt.'
 
 ----
 
 Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Servicetitle: Voetreflexologie
+
+----
+
+Servicetext1: Stimuleert herstellend vermogen van je lichaam
+
+----
+
+Servicetext2: Heilzaam voor organen en stelsels
+
+----
+
+Servicetext3: Relaxerend en ontspannend
+
+----
+
+Servicetext4: Ontgiftende werking
+
+----
+
+Img: - file://9VPi8MOZ3WezZJar
 
 ----
 

@@ -18,10 +18,6 @@ Thirdbutton: Psychozone harmonisering
 
 ----
 
-Img: - file://a0o3CuMvZJg2NRzQ
-
-----
-
 Contenttitle: Wat houdt Psychozone harmonisering in?
 
 ----
@@ -51,6 +47,30 @@ Contenttext:
 ----
 
 Contentbutton: MAAK EEN AFSPRAAK
+
+----
+
+Servicetitle: Psychozone Harmonisering
+
+----
+
+Servicetext1: Combinatie van reflexologie en acupressuur
+
+----
+
+Servicetext2: Heilzaam bij diverse psychische en emotionele problemen
+
+----
+
+Servicetext3: Relaxerend en ontgiftend
+
+----
+
+Servicetext4: Zelftherapie mogelijk dankzij acupressuurpunten
+
+----
+
+Img: - file://a0o3CuMvZJg2NRzQ
 
 ----
 

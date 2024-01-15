@@ -1,26 +1,31 @@
-<div class="psychozone_harmonisering__images">
+<div class="voetreflexologie__images">
 
-    <div class="psychozone_harmonisering__images__img3">
+    <div class="voetreflexologie__images__img3">
 
-        <h2 class="service_card__title">Psychozone Harmonisering</h2>
+        <h2 class="service_card__title"><?= $page->serviceTitle() ?></h2>
+
         <div class="service_card__info">
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-            <p class="service_card__info__text">Combinatie van reflexologie en acupressuur</p>
+            <p class="service_card__info__text"><?= $page->serviceText1() ?></p>
         </div>
+
         <div class="service_card__info">
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-            <p class="service_card__info__text">Heilzaam bij diverse psychische en emotionele problemen</p>
+            <p class="service_card__info__text"><?= $page->serviceText2() ?></p>
         </div>
+
         <div class="service_card__info">
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-            <p class="service_card__info__text">Relaxerend en ontgiftend</p>
+            <p class="service_card__info__text"><?= $page->serviceText3() ?></p>
         </div>
+
         <div class="service_card__info">
             <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-            <p class="service_card__info__text">Zelftherapie mogelijk dankzij acupressuurpunten</p>
+            <p class="service_card__info__text"><?= $page->serviceText4() ?></p>
         </div>
 
     </div>
 
-    <img class="psychozone_harmonisering__images__img2" src="<?= $page->img()->toFile()->url() ?>" alt="">
+    <img class="voetreflexologie__images__img2" src="<?= $page->img()->toFile()->url() ?>" alt="">
+
 </div>

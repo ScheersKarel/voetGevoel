@@ -1,19 +1,19 @@
 <div class="service_card">
-    <h2 class="service_card__title">Voetreflexologie</h2>
+    <h2 class="service_card__title"><?= $page->serviceTitle() ?></h2>
     <div class="service_card__info">
         <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-        <p class="service_card__info__text">Stimuleert herstellend vermogen van je lichaam</p>
+        <p class="service_card__info__text"><?= $page->serviceText1() ?></p>
     </div>
     <div class="service_card__info">
         <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-        <p class="service_card__info__text">Heilzaam voor organen en stelsels</p>
+        <p class="service_card__info__text"><?= $page->serviceText2() ?></p>
     </div>
     <div class="service_card__info">
         <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-        <p class="service_card__info__text">Relaxerend en ontspannend</p>
+        <p class="service_card__info__text"><?= $page->serviceText3() ?></p>
     </div>
     <div class="service_card__info">
         <iconify-icon class="service_card__info__icon" icon="simple-line-icons:check" style="color:#BF4D1B;" width="30" height="30"></iconify-icon>
-        <p class="service_card__info__text">Ontgiftende werking</p>
+        <p class="service_card__info__text"><?= $page->serviceText4() ?></p>
     </div>
 </div>

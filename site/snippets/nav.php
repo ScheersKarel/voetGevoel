@@ -61,7 +61,7 @@
                 <!--- Kijkt of de item children heeft (onderliggende paginas)  -->
                 <?php if ($item->hasChildren()) : ?>
                     <div class="dropdown" class="dropdownButton">
-                        <a href="#" class="dropbtn">Behandelingen <iconify-icon icon="gridicons:dropdown" style="color: #10587b; " width="20" height="20"></iconify-icon></a>
+                        <a href="#" class="dropbtn">Behandelingen <iconify-icon icon="gridicons:dropdown" style="color: black; " width="20" height="20"></iconify-icon></a>
                         <div class="dropdown-content">
                             <?php foreach ($pages->children() as $child) : ?>
                                 <a href="<?= $child->url() ?>"><?= $child->title() ?></a>

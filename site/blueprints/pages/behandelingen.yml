@@ -13,7 +13,6 @@ sections:
 
   subpages:
     type: pages
-    max: 3
     layout: cards
     size: medium
     info: "{{ page.heading }}"

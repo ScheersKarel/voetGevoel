@@ -54,7 +54,27 @@ columns:
           contentButton:
             type: text
             label: Content Button Text
-          
+      
+      serviceCardSection:
+        type: fields
+        fields:
+          serviceTitle:
+            type: text
+            label: Card Title
+          serviceText1:
+            type: textarea
+            label: Card text 1
+          serviceText2:
+            type: textarea
+            label: Card text 2
+          serviceText3: 
+            type: textarea
+            label: Card text 3
+          serviceText4:
+            type: textarea
+            label: Card text 4
+
+
       imgSection:
         type: fields
         fields:

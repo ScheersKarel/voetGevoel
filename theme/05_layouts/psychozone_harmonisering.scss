@@ -15,11 +15,14 @@
         margin-top: 50px;
 
         &__active_button {
-            background-color: $secondary;
+            background-color: $primary;
             color: white;
             border: none;
             padding: 10px 20px;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         &__button {
@@ -28,10 +31,13 @@
             background: transparent;
             transition: background-color 0.3s ease;
             border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         &__button:hover {
-            background-color: $secondary;
+            background-color: $primary;
             border: 1px solid white;
             color: white;
         }
@@ -89,7 +95,6 @@
             margin-top: 50px;
 
             &__active_button {
-                background-color: $secondary;
                 color: white;
                 border: none;
                 padding: 10px 20px;

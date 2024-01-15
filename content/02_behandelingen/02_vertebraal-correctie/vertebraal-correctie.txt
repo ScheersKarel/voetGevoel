@@ -49,6 +49,26 @@ Contentbutton: MAAK EEN AFSPRAAK
 
 ----
 
+Servicetitle: Energetische Vertebraal Correctie
+
+----
+
+Servicetext1: Zeer heilzaam bij rugklachten
+
+----
+
+Servicetext2: Zachte en aangename behandeling
+
+----
+
+Servicetext3: Snel zichtbare en voelbare resultaten
+
+----
+
+Servicetext4: Inzetbaar bij diverse problemen of pijnen
+
+----
+
 Img: - file://XNoQopHUDYRUP02d
 
 ----
