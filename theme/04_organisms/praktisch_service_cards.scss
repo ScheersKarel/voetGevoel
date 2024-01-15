@@ -1,12 +1,21 @@
-.praktisch_service_cards{
+.praktisch_service_cards {
     width: 80%;
     margin: auto;
 }
 
+.praktisch_service_cards .service_card {
+    width: 100%;
+}
+
 @media screen and (min-width: 1024px) {
-    .praktisch_service_cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
+    .praktisch_service_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .praktisch_service_cards .service_card {
+        width: 30%;
+        margin-left: 3%;
     }
 }

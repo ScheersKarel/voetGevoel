@@ -47,6 +47,35 @@ columns:
                   label: Text
                   type: textarea
 
+          serviceCard:
+            label: serviceCard
+            type: structure
+            fields:
+              title:
+                label: Card Title
+                type: text
+              subtitle:
+                label: Card Subtitle
+                type: text
+              text1:
+                label: Card text
+                type: text
+              text2:
+                label: Card text
+                type: text
+              text3:
+                label: Card text
+                type: text
+              text4:
+                label: Card text
+                type: text
+              button:
+                label: Card Button
+                type: text
+              buttonUrl:
+                label: Card Button Url
+                type: text
+
       cadeaubonSection:
         type: fields
         fields:

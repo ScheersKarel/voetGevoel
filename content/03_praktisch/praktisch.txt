@@ -31,6 +31,50 @@ Praktischtext:
 
 ----
 
+Servicecard:
+
+- 
+  title: Voetreflexologie preventief en curatief
+  subtitle: Wat kan je verwachten?
+  text1: >
+    Stimuleert herstellend vermogen van je
+    lichaam
+  text2: Heilzaam voor organen en stelsels
+  text3: Relaxerend en ontspannend
+  text4: Ontgiftende werking
+  button: ONTDEK MEER
+  buttonurl: behandelingen/voetreflexologie
+  text: ""
+  cardbuttonurl: ""
+- 
+  title: Energetische Vertebraal Correctie
+  subtitle: Wat kan je verwachten?
+  text1: Zeer heilzaam bij rugklachten
+  text2: Zachte en aangename behandeling
+  text3: Snel zichtbare en voelbare resultaten
+  text4: >
+    Inzetbaar bij diverse problemen of
+    pijnen
+  button: ONTDEK MEER
+  buttonurl: behandelingen/vertebraal-correctie
+- 
+  title: Psychozone Harmonisering
+  subtitle: Wat kan je verwachten?
+  text1: >
+    Combinatie van reflexologie en
+    acupressuur
+  text2: >
+    Heilzaam bij diverse psychische en
+    emotionele problemen
+  text3: Relaxerend en ontgiftend
+  text4: >
+    Zelftherapie mogelijk dankzij
+    acupressuurpunten
+  button: ONTDEK MEER
+  buttonurl: behandelingen/psychozone-harmonisering
+
+----
+
 Cadeaubontitle: Geef je graag een unieke voetreflexbehandeling als geschenk?
 
 ----
