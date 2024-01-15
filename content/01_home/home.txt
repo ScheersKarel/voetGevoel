@@ -185,14 +185,6 @@ Customercard:
     felis magna pretium in tincidunt.
     Suspendisse sed magna eget nibh in
     turpis. Consequat duis diam lacus arcu.
-- 
-  customerdate: 2024-01-02
-  customertitle: test card
-  customertext: 'was leuk '
-- 
-  customerdate: 2023-12-05
-  customertitle: 'meer test '
-  customertext: test
 
 ----
 

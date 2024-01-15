@@ -81,7 +81,7 @@
         width: 80%;
         margin: auto;
         padding: 10px;
-        overflow: hidden;
+        overflow: visible;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -140,6 +140,9 @@
     #navbar .dropdown-content {
         animation: fadeIn 1s ease;
         display: none;
+        z-index: 100;
+        position: absolute;
+
     }
 
     #navbar .dropbtn {

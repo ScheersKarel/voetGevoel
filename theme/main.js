@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
   const dropdownButtons = document.querySelectorAll('.dropdown .dropbtn');
-
+  const navbar = document.querySelector('#navbar');
   dropdownButtons.forEach(function (dropdownButton) {
     const dropdownContent = dropdownButton.nextElementSibling; // Zoek het bijbehorende dropdown-content element
 
@@ -63,8 +63,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (dropdownVisible) {
         dropdownContent.style.display = 'block';
+        navbar.style.marginBottom = '110px';
+
       } else {
         dropdownContent.style.display = 'none';
+        navbar.style.marginBottom = '0';
       }
     });
   });
