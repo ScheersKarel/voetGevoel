@@ -20,6 +20,8 @@
             align-items: center;
             justify-content: center;
             color: $primary;
+            height: 100px;
+
         }
 
         &__line {
@@ -34,6 +36,7 @@
         &__text {
             text-align: center;
 
+
         }
 
         &__button {
@@ -46,9 +49,7 @@
             margin: 10px auto;
             margin-top: 30px;
             margin-bottom: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: baseline;
+
         }
 
         &__button:hover {
