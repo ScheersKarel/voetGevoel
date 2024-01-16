@@ -13,9 +13,5 @@
 
      <div class="about__img">
          <img class="about__img__mobile" src="<?= $page->aboutImg()->toFile()->url() ?>" alt="">
-         <img class="about__img__bg" src="./resources/images/dic rectangle.png" alt="">
-         <img class="about__img__isabel" src="./resources/images/img isabel.png" alt="">
-         <img class="about__img__strand" src="./resources/images/img strand.png" alt="">
-         <img class="about__img__hey" src="./resources/images/hey !.png" alt="">
      </div>
  </div>

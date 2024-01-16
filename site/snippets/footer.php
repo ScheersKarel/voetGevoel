@@ -51,8 +51,8 @@
         <p class="footer__rights__text">BTW BE 0803.676.276</p>
     </div>
 </div>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<?= js('assets/js/main.min.js') ?>
 </body>
 
 </html>
-<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-<?= js('assets/js/main.min.js') ?>

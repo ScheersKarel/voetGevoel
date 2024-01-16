@@ -124,6 +124,7 @@
 
     #navbar .dropdown-content a {
         display: flex;
+        width: 97%;
         align-items: center;
         transition: background-color 0.3s ease;
         padding: 5px;
@@ -138,6 +139,8 @@
     }
 
     #navbar .dropdown-content {
+        background-color: white;
+        border-radius: 5px;
         animation: fadeIn 1s ease;
         display: none;
         z-index: 100;

@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (dropdownVisible) {
         dropdownContent.style.display = 'block';
-        navbar.style.marginBottom = '110px';
+
 
       } else {
         dropdownContent.style.display = 'none';
