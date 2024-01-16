@@ -26,7 +26,7 @@
         <div class="footer__container__item">
             <h2 class="footer__container__item__title"><?= $site->footerCard2Title() ?> </h2>
             <p class="footer__container__item__text"><?= $site->footerCard2text() ?></p>
-            <a href="./<?= $site->footerCard2ButtonUrl() ?>"><button class="footer__container__item__button"><?= $site->footerCard2Button() ?></button></a>
+            <a href="<?= $site->url($site->footerCard2ButtonUrl()) ?>"><button class="footer__container__item__button"><?= $site->footerCard2Button() ?></button></a>
 
             <div class="footer__container__item__socials">
                 <a class="footer__container__item__socials__button" href="<?= $site->footerCard2icon1Url() ?>">
